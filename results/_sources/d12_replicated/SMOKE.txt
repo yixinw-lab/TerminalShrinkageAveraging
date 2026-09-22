@@ -1,0 +1,14 @@
+suite=d12_structured_tsa_suite_v1
+torch=2.9.1+cu128
+native_optimizer=native
+pure_adamw_optimizer=pure_adamw
+total_numel=286261730
+group_a_numel=84935088
+group_a_fraction=0.29670431
+range_count=1
+range_source=trajectory_groups.make_averaged_candidate(selector=muon)
+initial_parameter_sample_fingerprint_match=True
+branch_sample_fingerprint_match=True
+eval_sample_fingerprint_match=True
+schema_sha256=1954ad2d1fd3a30425ea9ed1945f2dd67fbbcd302f94568eec41426d470bb983
+SMOKE PASS

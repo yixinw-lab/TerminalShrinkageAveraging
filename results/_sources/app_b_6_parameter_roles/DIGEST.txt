@@ -1,0 +1,24 @@
+D12 TSA GROUP SEARCH DIGEST
+============================
+frozen_sha256=4bf2e7b2c64cbc28c0a298a1bbb223f5cd0be2caa1987e95e57d44b21a8d5f7c
+frozen_scalar=scalar|alpha=0.500
+overall_best=complement_split|embedding=0.000|hidden=0.650|other=0.250|scalar=0.250|unembed=0.450
+overall_family=complement_split
+hidden_rest_winner=hidden_rest|hidden=0.625|rest=0.250
+
+PRIMARY: fresh native Muon+AdamW confirmation
+overall vs frozen scalar: +0.000153 ± 0.000051 BPB (95% t)
+95% interval: [+0.000103, +0.000204]
+overall vs hidden/rest winner: +0.000108 ± 0.000013 BPB
+verdict=NEW PARAMETER SPLIT CONFIRMED BEYOND SCALAR AND HIDDEN/REST
+
+TRANSFER: fresh pure-AdamW confirmation (baseline scalar alpha=0.50)
+overall vs scalar0.50: +0.000178 ± 0.000023 BPB
+95% interval: [+0.000155, +0.000202]
+overall vs hidden/rest winner: +0.000130 ± 0.000013 BPB
+
+See:
+  figures/confirmation_summary.csv
+  figures/key_contrasts.csv
+  DEV_FAMILY_WINNERS.csv
+  figures/trajectory_role_stats.csv

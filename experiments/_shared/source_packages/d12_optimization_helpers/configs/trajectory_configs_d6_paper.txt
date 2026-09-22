@@ -1,0 +1,16 @@
+# id,lr_scale,warmdown_ratio,final_lr_frac
+# Production-like warmdown sweep near the previously observed optimum.
+lr025_wd065,0.25,0.65,0.05
+lr030_wd065,0.30,0.65,0.05
+lr035_wd065,0.35,0.65,0.05
+lr040_wd065,0.40,0.65,0.05
+# Schedule/averaging interaction.
+lr030_wd045,0.30,0.45,0.05
+lr035_wd045,0.35,0.45,0.05
+lr040_wd045,0.40,0.45,0.05
+lr030_wd055,0.30,0.55,0.05
+lr035_wd055,0.35,0.55,0.05
+lr040_wd055,0.40,0.55,0.05
+# Stationary controls for mechanism interpretation.
+lr030_const,0.30,0.00,0.05
+lr040_const,0.40,0.00,0.05

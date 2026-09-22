@@ -1,0 +1,7 @@
+index,arm,floor,experiment_seed,model_tag
+0,control,-1,42,d22_delta_control_s42
+1,treatment,0.15,42,d22_delta_floor15_s42
+2,control,-1,43,d22_delta_control_s43
+3,treatment,0.15,43,d22_delta_floor15_s43
+4,control,-1,44,d22_delta_control_s44
+5,treatment,0.15,44,d22_delta_floor15_s44

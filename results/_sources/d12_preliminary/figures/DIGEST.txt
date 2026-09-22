@@ -1,0 +1,46 @@
+D12 paper-main selection suite
+==============================================================================
+Protocol
+  alpha: selected on baseline 5% schedule / alpha_select split only
+  floor: selected with alpha frozen / disjoint floor_select split only
+  headline values below: untouched holdout split only
+  optimizer: native Muon+AdamW
+
+Selected hyperparameters
+  alpha: 0.400
+  terminal floor: 10.00% of peak
+  TSA checkpoint window: K=8, spacing=32 optimizer steps
+
+Averaging alone on baseline 5% schedule (holdout)
+  raw:   1.055377
+  TSA:   1.054496  gain=+0.000881
+  LAWA:  1.055882 gain=-0.000505
+
+Clamp alone, raw output (holdout)
+  5% raw:                 1.055377
+  10.00% raw:              1.056521
+  hotter-floor raw delta: +0.001145
+
+Combined effect (holdout)
+  5% TSA:                 1.054496
+  10.00% TSA:              1.054383
+  hotter-floor TSA delta: -0.000113
+  TSA gain at 5%:         +0.000881
+  TSA gain at selected:   +0.002138
+
+Appendix comparators (holdout)
+  baseline adaptive tensor: bpb=1.054608 mean_alpha=0.5869
+  selected adaptive tensor: bpb=1.054287 mean_alpha=0.5865
+
+Files
+  fig1_averaging_full/zoom.(pdf|png)
+  fig2_clamp_full/zoom.(pdf|png)
+  fig3_interaction_full/zoom.(pdf|png)
+  figS_alpha_selection.(pdf|png)
+  figS_floor_selection.(pdf|png)
+  figA_alpha_floor_interaction.(pdf|png)
+  table_averaging.(csv|tex)
+  table_clamp.(csv|tex)
+  table_interaction.(csv|tex)
+  appendix_adaptive_vs_scalar.csv
+  FROZEN.env

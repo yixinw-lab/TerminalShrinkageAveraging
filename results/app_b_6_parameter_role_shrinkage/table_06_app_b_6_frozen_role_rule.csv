@@ -1,0 +1,5 @@
+parameter_group,alpha,newest_checkpoint_weight,source_basis
+Embedding parameters,0.0,1.0,Saved FROZEN_GROUP_RULES.json; development selection replay verified
+Hidden matrices,0.65,0.43124999999999997,Saved FROZEN_GROUP_RULES.json; development selection replay verified
+Unembedding matrix,0.45,0.6062500000000001,Saved FROZEN_GROUP_RULES.json; development selection replay verified
+Scalars and other parameters,0.25,0.78125,Saved FROZEN_GROUP_RULES.json; development selection replay verified

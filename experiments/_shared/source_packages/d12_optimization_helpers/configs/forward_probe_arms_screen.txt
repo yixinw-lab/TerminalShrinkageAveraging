@@ -1,0 +1,49 @@
+# Strong standard baselines
+exact_lr:0.25
+exact_lr:0.30
+exact_lr:0.35
+exact_lr:0.40
+eval_lawa_lr:0.40:8:16
+eval_lawa_lr:0.40:8:32
+
+# Two-point forward verification
+vf:mean:8:2:8:0.10:preserve:advance:1:0.0:all
+vf:mean:8:4:8:0.10:preserve:advance:1:0.0:all
+vf:mean:8:4:16:0.25:preserve:advance:1:0.0:all
+vf:dmd:4:2:8:0.10:preserve:advance:1:0.0:all
+vf:dmd:4:4:16:0.25:preserve:advance:1:0.0:all
+vf:recent_dmd:4:4:16:0.25:preserve:advance:1:0.0:all
+vf:mean:8:4:16:0.25:preserve:hold:1:0.0:all
+vf:dmd:4:4:16:0.25:preserve:hold:1:0.0:all
+
+# Directional quadratic probe: current-batch mechanism test
+qf:mean:8:2:8:0.10:preserve:advance:1:0.0:all
+qf:mean:8:4:8:0.10:preserve:advance:1:0.0:all
+qf:mean:8:4:16:0.25:preserve:advance:1:0.0:all
+qf:mean:8:8:32:0.25:preserve:advance:1:0.0:all
+qf:dmd:4:2:8:0.10:preserve:advance:1:0.0:all
+qf:dmd:4:4:16:0.25:preserve:advance:1:0.0:all
+qf:recent_dmd:4:4:16:0.25:preserve:advance:1:0.0:all
+qf:mean:8:4:16:0.25:preserve:hold:1:0.0:all
+qf:dmd:4:4:16:0.25:preserve:hold:1:0.0:all
+
+# More reliable probes
+qf:mean:8:4:16:0.25:preserve:advance:2:0.0:all
+qf:dmd:4:4:16:0.25:preserve:advance:2:0.0:all
+qf:mean:8:4:16:0.25:preserve:advance:4:0.0:all
+qf:dmd:4:4:16:0.25:preserve:advance:4:0.0:all
+
+# Muon-aware proposals
+qf:mean:8:2:8:0.10:preserve:advance:1:0.0:muon
+qf:mean:8:4:16:0.25:preserve:advance:1:0.0:muon
+qf:dmd:4:2:8:0.10:preserve:advance:1:0.0:muon
+qf:dmd:4:4:16:0.25:preserve:advance:1:0.0:muon
+qf:dmd:4:4:16:0.25:preserve:advance:2:0.0:muon
+qf:mean:8:4:16:0.25:preserve:advance:1:0.0:muon_attention
+qf:mean:8:4:16:0.25:preserve:advance:1:0.0:muon_mlp
+
+# Require a real probe improvement before accepting
+qf:mean:8:4:16:0.25:preserve:advance:1:0.001:all
+qf:dmd:4:4:16:0.25:preserve:advance:1:0.001:all
+qf:mean:8:4:16:0.25:preserve:advance:2:0.001:muon
+qf:dmd:4:4:16:0.25:preserve:advance:2:0.001:muon

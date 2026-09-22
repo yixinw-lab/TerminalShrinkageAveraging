@@ -1,0 +1,11 @@
+Confirmation repetitions
+========================================================================
+selected_alpha=0.550
+selected_floor=10.00%
+n_repetitions=5
+floor=5.00% method=Raw  mean=1.056079 se=0.000116
+floor=5.00% method=TSA  mean=1.055368 se=0.000155
+floor=5.00% method=LAWA mean=1.056809 se=0.000179
+floor=10.00% method=Raw  mean=1.056982 se=0.000185
+floor=10.00% method=TSA  mean=1.054825 se=0.000178
+floor=10.00% method=LAWA mean=1.056211 se=0.000156

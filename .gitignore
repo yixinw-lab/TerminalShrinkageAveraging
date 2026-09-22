@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pid
+*.pt
+*.pth
+*.safetensors
+*.bin
+.venv/
+.checks-local/
+
+# Local cluster/cloud environment and generated training runs
+experiments/_shared/d12_training/env.sh
+experiments/_shared/d12_training/logs/
+experiments/_shared/d12_training/outputs/

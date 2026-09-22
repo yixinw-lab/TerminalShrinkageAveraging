@@ -1,0 +1,15 @@
+final_bpb_seed_sem,improvement_seed_sem,mean_final_bpb,mean_improvement_vs_raw,method,n_seeds,optimizer,optimizer_label,recipe
+7.017630793071768e-05,2.138662931319301e-05,1.070596787872778,0.0007572974610641659,Adaptive (all tensors),5,native,Muon + AdamW,adaptive:hybrid:8:32:1.0:all
+6.43505491337031e-05,2.14781495857365e-05,1.0706189942077986,0.0007350911260436188,Adaptive (Muon tensors),5,native,Muon + AdamW,adaptive:hybrid:8:32:1.0:muon
+7.783353860785528e-05,2.0388685469614198e-05,1.0715282969381494,-0.0001742116043073061,EMA (beta=0.95),5,native,Muon + AdamW,ema:0.95:16:4
+6.44999910788721e-05,3.8348994533784454e-05,1.071714352358488,-0.0003602670246460438,Muon-only LAWA,5,native,Muon + AdamW,group:muon:8:32
+6.92663442517874e-05,0.0,1.0713540853338421,0.0,No averaging,5,native,Muon + AdamW,raw
+7.419351187958677e-05,1.0788822184205616e-05,1.0715002814397887,-0.00014619610594652778,LAWA (4 x 16),5,native,Muon + AdamW,uniform:4:16
+6.0111339045423126e-05,2.553057155587763e-05,1.072007573407512,-0.0006534880736701165,LAWA (8 x 32),5,native,Muon + AdamW,uniform:8:32
+0.0,0.0,1.1150675157624566,0.00013013847073484186,Adaptive (all tensors),5,pure_adamw,AdamW,adaptive:hybrid:8:32:1.0:all
+0.0,0.0,1.1151976542331914,0.0,Adaptive (Muon tensors),5,pure_adamw,AdamW,adaptive:hybrid:8:32:1.0:muon
+0.0,0.0,1.1152960880757372,-9.843384254581977e-05,EMA (beta=0.95),5,pure_adamw,AdamW,ema:0.95:16:4
+0.0,0.0,1.1151976542331914,0.0,Muon-only LAWA,5,pure_adamw,AdamW,group:muon:8:32
+0.0,0.0,1.1151976542331914,0.0,No averaging,5,pure_adamw,AdamW,raw
+0.0,0.0,1.1152634041217007,-6.574988850927e-05,LAWA (4 x 16),5,pure_adamw,AdamW,uniform:4:16
+0.0,0.0,1.115948514357341,-0.0007508601241497104,LAWA (8 x 32),5,pure_adamw,AdamW,uniform:8:32

@@ -1,0 +1,37 @@
+D12 structured TSA confirmation
+================================
+group-A fraction of parameters: 29.6704%
+native frozen rule: group=0.625, other=0.250
+native frozen scalar: alpha=0.550
+
+PRIMARY DECISION GATE (native, 10% floor)
+structured advantage over selected scalar: +0.000040 +/- 0.000050
+positive seeds: 4/5
+95% interval lower endpoint: -0.000010
+development optimum off diagonal: True
+PIVOT_RECOMMENDATION=MAYBE — structured TSA is promising but keep scalar TSA primary unless D22 also confirms
+
+[native] frozen structured=(0.625,0.250); scalar=0.550
+floor=0.05: structured-vs-scalar=+0.000019 +/- 0.000049; structured-vs-raw=+0.000730 +/- 0.000108
+floor=0.10: structured-vs-scalar=+0.000040 +/- 0.000050; structured-vs-raw=+0.002153 +/- 0.000120
+floor=0.15: structured-vs-scalar=+0.000057 +/- 0.000070; structured-vs-raw=+0.005369 +/- 0.000117
+
+[pure_adamw] frozen structured=(0.625,0.250); scalar=0.500
+floor=0.05: structured-vs-scalar=+0.000051 +/- 0.000033; structured-vs-raw=+0.000243 +/- 0.000071
+floor=0.10: structured-vs-scalar=+0.000046 +/- 0.000017; structured-vs-raw=+0.000992 +/- 0.000105
+floor=0.15: structured-vs-scalar=-0.000012 +/- 0.000037; structured-vs-raw=+0.002597 +/- 0.000243
+
+[native] schedule effects (positive means active floor is worse)
+5% -> 10%: schedule_effect_raw=+0.000915+/-0.000836; schedule_effect_scalar_dev_selected=-0.000487+/-0.000791; schedule_effect_structured_dev_selected=-0.000508+/-0.000828; interaction_raw_minus_structured=+0.001423+/-0.000055
+5% -> 15%: schedule_effect_raw=+0.003757+/-0.000769; schedule_effect_scalar_dev_selected=-0.000844+/-0.000737; schedule_effect_structured_dev_selected=-0.000882+/-0.000732; interaction_raw_minus_structured=+0.004639+/-0.000043
+
+[pure_adamw] schedule effects (positive means active floor is worse)
+5% -> 10%: schedule_effect_raw=+0.001125+/-0.002014; schedule_effect_scalar_dev_selected=+0.000371+/-0.002056; schedule_effect_structured_dev_selected=+0.000376+/-0.002058; interaction_raw_minus_structured=+0.000749+/-0.000108
+5% -> 15%: schedule_effect_raw=+0.003441+/-0.007564; schedule_effect_scalar_dev_selected=+0.001024+/-0.007470; schedule_effect_structured_dev_selected=+0.001087+/-0.007456; interaction_raw_minus_structured=+0.002354+/-0.000193
+
+Files:
+  ${EXTRAP_ROOT}/outputs/optimization_paper/d12_structured_tsa_v1/figures/primary_summary.csv
+  ${EXTRAP_ROOT}/outputs/optimization_paper/d12_structured_tsa_v1/figures/paired_contrasts_summary.csv
+  ${EXTRAP_ROOT}/outputs/optimization_paper/d12_structured_tsa_v1/figures/schedule_effects_summary.csv
+  ${EXTRAP_ROOT}/outputs/optimization_paper/d12_structured_tsa_v1/figures/optimizer_interactions_summary.csv
+  ${EXTRAP_ROOT}/outputs/optimization_paper/d12_structured_tsa_v1/figures/confirmation_surface_summary.csv

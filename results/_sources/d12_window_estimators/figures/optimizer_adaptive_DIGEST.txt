@@ -1,0 +1,19 @@
+AdamW
+------------------------------------------------------------------------------
+Adaptive (all tensors)       BPB=1.115068 gain=+0.000130 seed_SE=0.000000 n=5
+Adaptive (Muon tensors)      BPB=1.115198 gain=+0.000000 seed_SE=0.000000 n=5
+Muon-only LAWA               BPB=1.115198 gain=+0.000000 seed_SE=0.000000 n=5
+No averaging                 BPB=1.115198 gain=+0.000000 seed_SE=0.000000 n=5
+LAWA (4 x 16)                BPB=1.115263 gain=-0.000066 seed_SE=0.000000 n=5
+EMA (beta=0.95)              BPB=1.115296 gain=-0.000098 seed_SE=0.000000 n=5
+LAWA (8 x 32)                BPB=1.115949 gain=-0.000751 seed_SE=0.000000 n=5
+
+Muon + AdamW
+------------------------------------------------------------------------------
+Adaptive (all tensors)       BPB=1.070597 gain=+0.000757 seed_SE=0.000021 n=5
+Adaptive (Muon tensors)      BPB=1.070619 gain=+0.000735 seed_SE=0.000021 n=5
+No averaging                 BPB=1.071354 gain=+0.000000 seed_SE=0.000000 n=5
+LAWA (4 x 16)                BPB=1.071500 gain=-0.000146 seed_SE=0.000011 n=5
+EMA (beta=0.95)              BPB=1.071528 gain=-0.000174 seed_SE=0.000020 n=5
+Muon-only LAWA               BPB=1.071714 gain=-0.000360 seed_SE=0.000038 n=5
+LAWA (8 x 32)                BPB=1.072008 gain=-0.000653 seed_SE=0.000026 n=5

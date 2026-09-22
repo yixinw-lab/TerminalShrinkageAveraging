@@ -1,0 +1,4 @@
+# Versions used to test this CPU-only result reconstruction. Not a training lockfile.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8

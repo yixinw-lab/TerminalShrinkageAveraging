@@ -1,0 +1,6 @@
+arm=baseline_x
+core_threshold=0.256525
+raw_training_minutes=78.504979
+raw_val_bpb=0.720518
+raw_core=0.244400
+raw_qualifies=NO

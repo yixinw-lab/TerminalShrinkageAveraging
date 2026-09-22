@@ -1,0 +1,35 @@
+{
+  "freeze_sha256": "6734d02c5d5a05c96292828a09204fb42cff04d0d908c8d16f7569f7909bf703",
+  "group_schema_sha256": "1954ad2d1fd3a30425ea9ed1945f2dd67fbbcd302f94568eec41426d470bb983",
+  "rules": {
+    "native": {
+      "alpha_group": 0.625,
+      "alpha_other": 0.25,
+      "n_development_streams": 5,
+      "off_diagonal": true,
+      "scalar_alpha": 0.55,
+      "scalar_development_ci95_half": 0.00023089349337169742,
+      "scalar_development_mean_gain": 0.0021010283494668604,
+      "structured_development_ci95_half": 0.0002314597424319126,
+      "structured_development_mean_gain": 0.0021628347954452563,
+      "structured_minus_scalar_development": 6.18064459783959e-05,
+      "structured_positive_seed_count": 5
+    },
+    "pure_adamw": {
+      "alpha_group": 0.625,
+      "alpha_other": 0.25,
+      "n_development_streams": 5,
+      "off_diagonal": true,
+      "scalar_alpha": 0.5,
+      "scalar_development_ci95_half": 0.00016289642442783264,
+      "scalar_development_mean_gain": 0.0009451863412151873,
+      "structured_development_ci95_half": 0.00018542700744285734,
+      "structured_development_mean_gain": 0.0010070094556861252,
+      "structured_minus_scalar_development": 6.182311447093796e-05,
+      "structured_positive_seed_count": 5
+    }
+  },
+  "selection_data": "development trajectories only; calibration validation block only",
+  "selection_rule": "maximize mean paired BPB gain versus raw across development streams separately for the predeclared structured 9x9 grid and scalar 0.05 grid; deterministic ties favor less-extreme points",
+  "suite": "d12_structured_tsa_suite_v1"
+}

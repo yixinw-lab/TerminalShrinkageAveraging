@@ -1,0 +1,11 @@
+arm=tsa_clamp_x
+target_ratio=9.0
+schedule_ratio=9.0
+experiment_seed=44
+terminal_clamp=0.15
+tsa_alpha=0.70
+snapshot_k=8
+snapshot_spacing_frac=0.011108926464805349
+commit=e09bc164162f35da0b5b8315be791e9e974a4c3a
+final_step=10172
+tsa_model_tag=n3_floor15_direct9_tsa0700_s44_r9_blend_0.70

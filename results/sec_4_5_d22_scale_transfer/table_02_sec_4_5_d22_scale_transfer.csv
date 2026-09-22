@@ -1,0 +1,4 @@
+configuration,configuration_id,schedule_calibration,terminal_floor_percent,endpoint_step,n,time_min_mean,time_min_ci95_halfwidth,val_bpb_mean,val_bpb_ci95_halfwidth,core_mean,core_ci95_halfwidth,core_basis
+PR #830 early stop,pr830_early_stop_9p4_raw,9.4,0,10172,3,78.027702886,2.0229072847550174,0.7216170000000001,0.0006238154038813847,0.2479,0.020026217858332637,recomputed_from_saved_records
+PR #830 direct 9.0,pr830_direct_9p0_raw,9.0,0,10172,3,77.99856085533332,1.9383015325731,0.7202346666666667,0.000734537860798083,0.2490666666666667,0.010624832494070945,recomputed_from_saved_records
+15% floor + TSA,floor15_direct9_tsa0700,9.0,15,10172,3,77.89592963324652,0.029460527540173993,0.7195803333333334,0.0005616367462672737,0.25789999999999996,0.015881005156674555,recomputed_from_saved_records

@@ -1,0 +1,6 @@
+raw
+uniform:4:4
+group:muon:4:4
+group:adamw:4:4
+adaptive:hybrid:4:4:1.0:muon
+ema:0.9:4:4

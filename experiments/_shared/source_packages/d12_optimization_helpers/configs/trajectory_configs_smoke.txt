@@ -1,0 +1,2 @@
+# id,lr_scale,warmdown_ratio,final_lr_frac
+smoke_lr030,0.30,0.00,0.05

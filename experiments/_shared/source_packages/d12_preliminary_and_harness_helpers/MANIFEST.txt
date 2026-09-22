@@ -1,0 +1,17 @@
+./MANIFEST.txt
+./README_PAPER_MAIN_D12.md
+./SHA256SUMS.txt
+./configs/paper_main_alpha_grid.txt
+./configs/paper_main_confirmation_seeds.txt
+./configs/paper_main_curve_steps.txt
+./configs/paper_main_floors.txt
+./nanochat_meta/paper_main_d12.py
+./pack_paper_main_d12_results.sh
+./slurm/97_paper_main_d12_array.sh
+./slurm/97_paper_main_d12_confirm_array.sh
+./slurm/99_merge_paper_main_d12.sh
+./slurm/99_merge_paper_main_d12_confirmation.sh
+./slurm/_paper_python.sh
+./slurm/submit_paper_main_d12.sh
+./slurm/submit_paper_main_d12_confirmation.sh
+./verify_paper_main_d12_suite.sh

@@ -1,0 +1,17 @@
+% Means and 95% Student-t intervals are computed from the saved per-seed records.
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\caption{Matched-endpoint depth-22 comparison over three seeds. All configurations stop at step 10,172. Values are means $\pm$ 95\% intervals.}
+\label{tab:d22-matched}
+\begin{tabular}{lccccc}
+\toprule
+Configuration & Calibration & Floor & Time (min) & Val. BPB & CORE \\
+\midrule
+PR \#830 early stop & 9.4 & none & $78.028 \pm 2.023$ & $0.721617 \pm 0.000624$ & $0.2479 \pm 0.0200$ \\
+PR \#830 direct 9.0 & 9.0 & none & $77.999 \pm 1.938$ & $0.720235 \pm 0.000735$ & $0.2491 \pm 0.0106$ \\
+15\% floor + TSA & 9.0 & $15\%$ & $77.896 \pm 0.029$ & $0.719580 \pm 0.000562$ & $0.2579 \pm 0.0159$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,4 @@
+floor,n,mean_optimizer_by_estimator_interaction,ci95_half,positive_seed_count,positive_means
+0.05,5,-3.206455153943466e-05,6.960663084547834e-05,2,structured-over-scalar advantage is larger for native Muon+AdamW
+0.1,5,-6.358316838284139e-06,4.145184184560755e-05,2,structured-over-scalar advantage is larger for native Muon+AdamW
+0.15,5,6.890943854975795e-05,4.1293098936189244e-05,5,structured-over-scalar advantage is larger for native Muon+AdamW

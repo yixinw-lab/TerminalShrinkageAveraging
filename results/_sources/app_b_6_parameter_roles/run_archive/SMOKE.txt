@@ -1,0 +1,11 @@
+suite=d12_tsa_group_search_v1
+python=${NANOCHAT_ROOT}/.venv/bin/python
+torch=2.9.1+cu128
+native_pack=${PROJECT_ROOT}/outputs/optimization_paper/averaging_curves_d12_s5_v1/native_seed1337/pack.pt
+total_numel=286261730
+hidden_numel=84935088
+hidden_fraction=0.296704
+n_layers_seen=12
+candidate_count=290
+one_batch_bpb=3.187611980013741
+TSA GROUP SEARCH SMOKE PASS

@@ -1,0 +1,19 @@
+Optimizer x Averaging Curve Suite v1
+
+Overwrites (backward-compatible):
+  nanochat_meta/muon_aware_averaging.py
+  pack_optimization_paper_results.sh
+
+Adds:
+  nanochat_meta/averaging_curve_plot.py
+  configs/averaging_curve_recipes.txt
+  configs/averaging_curve_trajectory.txt
+  slurm/97_averaging_curve_array.sh
+  slurm/99_merge_averaging_curves.sh
+  slurm/submit_averaging_curve_single.sh
+  slurm/submit_averaging_curve_matrix.sh
+  verify_averaging_curve_suite.sh
+  README_AVERAGING_CURVES.md
+
+Expected pre-install hash:
+  fd80d7bcf17dcc9fa9e6cc270cb9d3bb2bd767876b59233947cd2792b9c14536  nanochat_meta/muon_aware_averaging.py

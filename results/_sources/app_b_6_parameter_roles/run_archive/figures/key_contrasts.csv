@@ -1,0 +1,3 @@
+optimizer,contrast,candidate_id,reference_id,n,mean_gain,se,halfwidth95,lo95,hi95
+native,overall_best_minus_hidden_rest_winner,complement_split|embedding=0.000|hidden=0.650|other=0.250|scalar=0.250|unembed=0.450,hidden_rest|hidden=0.625|rest=0.250,8,0.0001077709664458748,5.52814849126947e-06,1.3074071181852298e-05,9.46968952640225e-05,0.0001208450376277271
+pure_adamw,overall_best_minus_hidden_rest_winner,complement_split|embedding=0.000|hidden=0.650|other=0.250|scalar=0.250|unembed=0.450,hidden_rest|hidden=0.625|rest=0.250,8,0.0001296219861550152,5.538082284863541e-06,1.3097564603702275e-05,0.00011652442155131291,0.00014271955075871747

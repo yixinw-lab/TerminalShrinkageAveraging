@@ -1,0 +1,9 @@
+# Small one-run transfer screen. Freeze exactly one recipe before confirmation.
+raw
+blend:0.40
+blend:0.587
+blend:0.75
+uniform
+adaptive:snr
+adaptive:autocorr
+adaptive:hybrid

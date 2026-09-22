@@ -1,0 +1,3 @@
+68a714f6c2ddd2097f1f1db601ed64e88ebe7e799720a1384462c77f9fbca57e  ${EXTRAP_ROOT}/outputs/optimization_paper/d12_structured_tsa_v1/freeze_archive/FROZEN_RULES.json
+24a4eff7fb278429f8ffca36ba487dd20de5263265b4215106f3da106d45e9ac  ${EXTRAP_ROOT}/outputs/optimization_paper/d12_structured_tsa_v1/freeze_archive/FROZEN_RULES.txt
+469241e69620cf10fc2f408bdd6c5570d3bfe6abebe299f0d9e4d5d5e485c0de  ${EXTRAP_ROOT}/outputs/optimization_paper/d12_structured_tsa_v1/freeze_archive/ARCHIVED_AT.txt

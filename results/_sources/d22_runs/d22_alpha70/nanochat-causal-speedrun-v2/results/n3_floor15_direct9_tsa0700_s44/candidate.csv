@@ -1,0 +1,2 @@
+ratio,endpoint_step,recipe,model_tag,model_path,meta_path,total_training_time,mean_alpha_by_numel
+9.0,10172,blend:0.70,n3_floor15_direct9_tsa0700_s44_r9_blend_0.70,${D22_ROOT}/data/base_checkpoints/n3_floor15_direct9_tsa0700_s44_r9_blend_0.70/model_010172.pt,${D22_ROOT}/data/base_checkpoints/n3_floor15_direct9_tsa0700_s44_r9_blend_0.70/meta_010172.json,4673.408897161484,0.7000000000000006

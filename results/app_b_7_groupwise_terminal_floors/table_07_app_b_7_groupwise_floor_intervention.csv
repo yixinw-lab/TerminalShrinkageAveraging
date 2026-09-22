@@ -1,0 +1,4 @@
+returned_estimator,n,effect,ci95_halfwidth,ci95_low,ci95_high,source_basis
+Raw final iterate,8,0.003404159811490476,0.0003855573495748847,0.0030186024619155913,0.0037897171610653604,Recomputed from eight paired streams in 32 saved run records; manuscript contrast direction
+Frozen groupwise TSA,8,-0.0001123169725620321,0.0002943315734124871,-0.0004066485459745192,0.00018201460085045498,Recomputed from eight paired streams in 32 saved run records; manuscript contrast direction
+Interaction,8,0.003516476784052508,9.799482024834997e-05,0.003418481963804158,0.003614471604300858,Recomputed from eight paired streams in 32 saved run records; manuscript contrast direction

@@ -1,0 +1,167 @@
+{
+  "manuscript": "Terminal Shrinkage Averaging Reveals a Schedule-Estimator Interaction in LLM Pretraining",
+  "sections": [
+    {
+      "id": "sec_4_1_replicated_shrinkage",
+      "section": "4.1",
+      "title": "Replicated interior shrinkage optimum",
+      "figures": [
+        2
+      ],
+      "tables": [],
+      "dataset": "replicated"
+    },
+    {
+      "id": "sec_4_2_raw_terminal_activity",
+      "section": "4.2",
+      "title": "Raw final-iterate response to terminal activity",
+      "figures": [
+        3
+      ],
+      "tables": [],
+      "dataset": "replicated"
+    },
+    {
+      "id": "sec_4_3_schedule_estimator_interaction",
+      "section": "1; 4.3",
+      "title": "Schedule-estimator interaction",
+      "figures": [
+        1,
+        4
+      ],
+      "tables": [
+        1
+      ],
+      "dataset": "replicated"
+    },
+    {
+      "id": "sec_4_4_adamw_replication",
+      "section": "4.4",
+      "title": "Pure-AdamW replication",
+      "figures": [
+        4
+      ],
+      "tables": [],
+      "dataset": "replicated"
+    },
+    {
+      "id": "sec_4_5_d22_scale_transfer",
+      "section": "4.5; A.4",
+      "title": "Depth-22 matched-endpoint scale transfer",
+      "figures": [],
+      "tables": [
+        2
+      ],
+      "dataset": "d22"
+    },
+    {
+      "id": "app_b_1_shrinkage_across_floors",
+      "section": "B.1",
+      "title": "Scalar shrinkage across floors and optimizers",
+      "figures": [
+        5
+      ],
+      "tables": [
+        3
+      ],
+      "dataset": "replicated"
+    },
+    {
+      "id": "app_b_2_checkpoint_windows",
+      "section": "B.2",
+      "title": "Checkpoint-count and spacing sensitivity",
+      "figures": [
+        6
+      ],
+      "tables": [],
+      "dataset": "appendix"
+    },
+    {
+      "id": "app_b_3_b_4_alternative_estimators",
+      "section": "B.3; B.4",
+      "title": "Alternative estimators and tensorwise adaptive TSA",
+      "figures": [
+        7
+      ],
+      "tables": [],
+      "dataset": "appendix"
+    },
+    {
+      "id": "app_b_5_two_group_shrinkage",
+      "section": "B.5",
+      "title": "Initial two-group shrinkage and parameter localization",
+      "figures": [
+        8,
+        9
+      ],
+      "tables": [
+        4,
+        5
+      ],
+      "dataset": "replicated"
+    },
+    {
+      "id": "app_b_6_parameter_role_shrinkage",
+      "section": "B.6",
+      "title": "Parameter-role group search and frozen confirmation",
+      "figures": [
+        10,
+        11
+      ],
+      "tables": [
+        6
+      ],
+      "dataset": "role"
+    },
+    {
+      "id": "app_b_7_groupwise_terminal_floors",
+      "section": "B.7",
+      "title": "Groupwise terminal-floor mechanism probe",
+      "figures": [],
+      "tables": [
+        7
+      ],
+      "dataset": "floor"
+    },
+    {
+      "id": "app_b_8_preliminary_sweeps",
+      "section": "B.8",
+      "title": "Preliminary single-trajectory scalar and floor sweeps",
+      "figures": [
+        12
+      ],
+      "tables": [
+        8,
+        9
+      ],
+      "dataset": "preliminary"
+    },
+    {
+      "id": "app_b_9_quadratic_response",
+      "section": "B.9",
+      "title": "Quadratic response of replicated scalar shrinkage",
+      "figures": [
+        13
+      ],
+      "tables": [
+        10
+      ],
+      "dataset": "replicated"
+    }
+  ],
+  "figure_names": {
+    "1": "fig_01_sec_1_sec_4_3_schedule_estimator_interaction",
+    "2": "fig_02_sec_4_1_replicated_shrinkage",
+    "3": "fig_03_sec_4_2_raw_terminal_activity",
+    "4": "fig_04_sec_4_3_sec_4_4_optimizer_interactions",
+    "5": "fig_05_app_b_1_shrinkage_across_floors",
+    "6": "fig_06_app_b_2_checkpoint_windows",
+    "7": "fig_07_app_b_3_b_4_alternative_estimators",
+    "8": "fig_08_app_b_5_two_group_development",
+    "9": "fig_09_app_b_5_parameter_localization",
+    "10": "fig_10_app_b_6_group_search",
+    "11": "fig_11_app_b_6_group_confirmation",
+    "12": "fig_12_app_b_8_preliminary_floor_sweep",
+    "13": "fig_13_app_b_9_quadratic_response"
+  }
+}

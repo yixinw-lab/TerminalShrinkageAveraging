@@ -1,0 +1,13 @@
+{
+  "core_metric": 0.2652,
+  "log": "${D22_ROOT}/results/n3_floor15_direct9_tsa0700_s43/tsa_core.log",
+  "meta": "${D22_ROOT}/data/base_checkpoints/n3_floor15_direct9_tsa0700_s43_r9_blend_0.70/meta_010172.json",
+  "model_tag": "n3_floor15_direct9_tsa0700_s43_r9_blend_0.70",
+  "ratio": 9.0,
+  "recipe": "blend:0.70",
+  "step": 10172,
+  "total_training_time": 4673.28417301178,
+  "train_bpb": 0.720601,
+  "training_minutes": 77.88806955019633,
+  "val_bpb": 0.719358
+}

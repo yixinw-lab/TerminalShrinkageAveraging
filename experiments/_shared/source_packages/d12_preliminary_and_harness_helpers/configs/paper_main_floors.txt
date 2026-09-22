@@ -1,0 +1,6 @@
+# terminal LR floors, fraction of peak
+0.05
+0.10
+0.125
+0.15
+0.175

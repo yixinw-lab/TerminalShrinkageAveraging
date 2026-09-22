@@ -1,0 +1,6 @@
+floor,validation_bpb,effect,ci95_halfwidth,n_eval_batches,interval_method
+0.05,1.0612242823601388,0.0,0.0,32,1.96 times paired evaluation-batch SE; one trajectory
+0.1,1.062481711143401,0.0012574287832623973,0.0013993816584595377,32,1.96 times paired evaluation-batch SE; one trajectory
+0.125,1.0637793882744613,0.002555105914322269,0.001529434762517265,32,1.96 times paired evaluation-batch SE; one trajectory
+0.15,1.0650034223882416,0.003779140028102798,0.0014497816239675268,32,1.96 times paired evaluation-batch SE; one trajectory
+0.175,1.0685079307768732,0.007283648416734487,0.0014305125758190924,32,1.96 times paired evaluation-batch SE; one trajectory

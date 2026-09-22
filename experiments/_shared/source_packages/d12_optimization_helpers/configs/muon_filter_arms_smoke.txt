@@ -1,0 +1,5 @@
+exact_lr:0.30
+noop
+pull:muon:4:4:4:0.10:preserve
+pull:adamw:4:4:4:0.10:preserve
+apull:hybrid:muon:4:4:4:1.0:preserve

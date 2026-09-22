@@ -1,0 +1,10 @@
+D12 appendix averaging sensitivity
+==================================
+n seeds: 5
+TSA K8 s32 alpha .55 gain vs raw: +0.002070 +/- 0.000205
+Checkpoint EMA gain vs raw: +0.001113 +/- 0.000250
+SWA-style gain vs raw: -0.000775 +/- 0.000375
+quadratic fit R2=0.998830
+predicted alpha vertex=0.4415
+linear=0.0039744731 quadratic=-0.0045006828
+copied optimizer/adaptive artifacts: 3

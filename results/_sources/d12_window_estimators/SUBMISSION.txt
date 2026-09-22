@@ -1,0 +1,14 @@
+created_at=2026-08-30T13:55:13-05:00
+design=five_stream_seed_D12_K_spacing_and_averaging_family_ablation
+physical_and_schedule_horizon=3000
+terminal_floor=0.10
+primary_alpha=0.55
+K_grid=4,8,16
+spacing_grid=16,32,64
+matched_EWA_betas=0.50,0.75,0.90,0.95
+historical_EMA=beta0.95_K16_s16
+SWA_style=K32_s16
+adaptive=hybrid_all_and_muon
+pack=${EXTRAP_ROOT}/outputs/optimization_paper/averaging_curves_d12_s5_v1/native_seed1337/pack.pt
+array_job=3050500
+merge_job=3050501

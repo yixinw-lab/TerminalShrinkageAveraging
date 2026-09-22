@@ -1,0 +1,16 @@
+raw
+uniform:4:16
+uniform:8:16
+uniform:4:32
+uniform:8:32
+uniform:8:64
+uniform:16:32
+group:muon:8:16
+group:muon:8:32
+group:adamw:8:16
+adaptive:hybrid:8:16:1.0:all
+adaptive:hybrid:8:16:1.0:muon
+adaptive:hybrid:8:32:1.0:muon
+ema:0.95:16:4
+ema:0.98:16:4
+recency:1.0:8:16

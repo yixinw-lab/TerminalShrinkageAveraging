@@ -1,0 +1,5 @@
+# id,lr_scale,warmdown_ratio,final_lr_frac
+lr030_wd065,0.30,0.65,0.05
+lr040_wd065,0.40,0.65,0.05
+lr040_wd045,0.40,0.45,0.05
+lr040_const,0.40,0.00,0.05

@@ -1,0 +1,821 @@
+[
+  {
+    "index": 0,
+    "is_muon": false,
+    "mapping_repr": "{'index': 0, 'name': 'resid_lambdas', 'start': 0, 'stop': 12, 'shape': (12,), 'optimizer_kind': 'adamw', 'role': 'scalar', 'layer': None}",
+    "slice": [
+      0,
+      12
+    ]
+  },
+  {
+    "index": 1,
+    "is_muon": false,
+    "mapping_repr": "{'index': 1, 'name': 'x0_lambdas', 'start': 12, 'stop': 24, 'shape': (12,), 'optimizer_kind': 'adamw', 'role': 'scalar', 'layer': None}",
+    "slice": [
+      12,
+      24
+    ]
+  },
+  {
+    "index": 2,
+    "is_muon": false,
+    "mapping_repr": "{'index': 2, 'name': 'smear_lambda', 'start': 24, 'stop': 25, 'shape': (1,), 'optimizer_kind': 'adamw', 'role': 'scalar', 'layer': None}",
+    "slice": [
+      24,
+      25
+    ]
+  },
+  {
+    "index": 3,
+    "is_muon": false,
+    "mapping_repr": "{'index': 3, 'name': 'backout_lambda', 'start': 25, 'stop': 26, 'shape': (1,), 'optimizer_kind': 'adamw', 'role': 'scalar', 'layer': None}",
+    "slice": [
+      25,
+      26
+    ]
+  },
+  {
+    "index": 4,
+    "is_muon": false,
+    "mapping_repr": "{'index': 4, 'name': 'transformer.wte.weight', 'start': 26, 'stop': 25165850, 'shape': (32768, 768), 'optimizer_kind': 'adamw', 'role': 'embedding', 'layer': None}",
+    "slice": [
+      26,
+      25165850
+    ]
+  },
+  {
+    "index": 5,
+    "is_muon": true,
+    "mapping_repr": "{'index': 5, 'name': 'transformer.h.0.attn.c_q.weight', 'start': 25165850, 'stop': 25755674, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 0}",
+    "slice": [
+      25165850,
+      25755674
+    ]
+  },
+  {
+    "index": 6,
+    "is_muon": true,
+    "mapping_repr": "{'index': 6, 'name': 'transformer.h.0.attn.c_k.weight', 'start': 25755674, 'stop': 26345498, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 0}",
+    "slice": [
+      25755674,
+      26345498
+    ]
+  },
+  {
+    "index": 7,
+    "is_muon": true,
+    "mapping_repr": "{'index': 7, 'name': 'transformer.h.0.attn.c_v.weight', 'start': 26345498, 'stop': 26935322, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 0}",
+    "slice": [
+      26345498,
+      26935322
+    ]
+  },
+  {
+    "index": 8,
+    "is_muon": true,
+    "mapping_repr": "{'index': 8, 'name': 'transformer.h.0.attn.c_proj.weight', 'start': 26935322, 'stop': 27525146, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 0}",
+    "slice": [
+      26935322,
+      27525146
+    ]
+  },
+  {
+    "index": 9,
+    "is_muon": true,
+    "mapping_repr": "{'index': 9, 'name': 'transformer.h.0.mlp.c_fc.weight', 'start': 27525146, 'stop': 29884442, 'shape': (3072, 768), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 0}",
+    "slice": [
+      27525146,
+      29884442
+    ]
+  },
+  {
+    "index": 10,
+    "is_muon": true,
+    "mapping_repr": "{'index': 10, 'name': 'transformer.h.0.mlp.c_proj.weight', 'start': 29884442, 'stop': 32243738, 'shape': (768, 3072), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 0}",
+    "slice": [
+      29884442,
+      32243738
+    ]
+  },
+  {
+    "index": 11,
+    "is_muon": true,
+    "mapping_repr": "{'index': 11, 'name': 'transformer.h.1.attn.c_q.weight', 'start': 32243738, 'stop': 32833562, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 1}",
+    "slice": [
+      32243738,
+      32833562
+    ]
+  },
+  {
+    "index": 12,
+    "is_muon": true,
+    "mapping_repr": "{'index': 12, 'name': 'transformer.h.1.attn.c_k.weight', 'start': 32833562, 'stop': 33423386, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 1}",
+    "slice": [
+      32833562,
+      33423386
+    ]
+  },
+  {
+    "index": 13,
+    "is_muon": true,
+    "mapping_repr": "{'index': 13, 'name': 'transformer.h.1.attn.c_v.weight', 'start': 33423386, 'stop': 34013210, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 1}",
+    "slice": [
+      33423386,
+      34013210
+    ]
+  },
+  {
+    "index": 14,
+    "is_muon": true,
+    "mapping_repr": "{'index': 14, 'name': 'transformer.h.1.attn.c_proj.weight', 'start': 34013210, 'stop': 34603034, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 1}",
+    "slice": [
+      34013210,
+      34603034
+    ]
+  },
+  {
+    "index": 15,
+    "is_muon": true,
+    "mapping_repr": "{'index': 15, 'name': 'transformer.h.1.attn.ve_gate.weight', 'start': 34603034, 'stop': 34603106, 'shape': (6, 12), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 1}",
+    "slice": [
+      34603034,
+      34603106
+    ]
+  },
+  {
+    "index": 16,
+    "is_muon": true,
+    "mapping_repr": "{'index': 16, 'name': 'transformer.h.1.mlp.c_fc.weight', 'start': 34603106, 'stop': 36962402, 'shape': (3072, 768), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 1}",
+    "slice": [
+      34603106,
+      36962402
+    ]
+  },
+  {
+    "index": 17,
+    "is_muon": true,
+    "mapping_repr": "{'index': 17, 'name': 'transformer.h.1.mlp.c_proj.weight', 'start': 36962402, 'stop': 39321698, 'shape': (768, 3072), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 1}",
+    "slice": [
+      36962402,
+      39321698
+    ]
+  },
+  {
+    "index": 18,
+    "is_muon": true,
+    "mapping_repr": "{'index': 18, 'name': 'transformer.h.2.attn.c_q.weight', 'start': 39321698, 'stop': 39911522, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 2}",
+    "slice": [
+      39321698,
+      39911522
+    ]
+  },
+  {
+    "index": 19,
+    "is_muon": true,
+    "mapping_repr": "{'index': 19, 'name': 'transformer.h.2.attn.c_k.weight', 'start': 39911522, 'stop': 40501346, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 2}",
+    "slice": [
+      39911522,
+      40501346
+    ]
+  },
+  {
+    "index": 20,
+    "is_muon": true,
+    "mapping_repr": "{'index': 20, 'name': 'transformer.h.2.attn.c_v.weight', 'start': 40501346, 'stop': 41091170, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 2}",
+    "slice": [
+      40501346,
+      41091170
+    ]
+  },
+  {
+    "index": 21,
+    "is_muon": true,
+    "mapping_repr": "{'index': 21, 'name': 'transformer.h.2.attn.c_proj.weight', 'start': 41091170, 'stop': 41680994, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 2}",
+    "slice": [
+      41091170,
+      41680994
+    ]
+  },
+  {
+    "index": 22,
+    "is_muon": true,
+    "mapping_repr": "{'index': 22, 'name': 'transformer.h.2.mlp.c_fc.weight', 'start': 41680994, 'stop': 44040290, 'shape': (3072, 768), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 2}",
+    "slice": [
+      41680994,
+      44040290
+    ]
+  },
+  {
+    "index": 23,
+    "is_muon": true,
+    "mapping_repr": "{'index': 23, 'name': 'transformer.h.2.mlp.c_proj.weight', 'start': 44040290, 'stop': 46399586, 'shape': (768, 3072), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 2}",
+    "slice": [
+      44040290,
+      46399586
+    ]
+  },
+  {
+    "index": 24,
+    "is_muon": true,
+    "mapping_repr": "{'index': 24, 'name': 'transformer.h.3.attn.c_q.weight', 'start': 46399586, 'stop': 46989410, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 3}",
+    "slice": [
+      46399586,
+      46989410
+    ]
+  },
+  {
+    "index": 25,
+    "is_muon": true,
+    "mapping_repr": "{'index': 25, 'name': 'transformer.h.3.attn.c_k.weight', 'start': 46989410, 'stop': 47579234, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 3}",
+    "slice": [
+      46989410,
+      47579234
+    ]
+  },
+  {
+    "index": 26,
+    "is_muon": true,
+    "mapping_repr": "{'index': 26, 'name': 'transformer.h.3.attn.c_v.weight', 'start': 47579234, 'stop': 48169058, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 3}",
+    "slice": [
+      47579234,
+      48169058
+    ]
+  },
+  {
+    "index": 27,
+    "is_muon": true,
+    "mapping_repr": "{'index': 27, 'name': 'transformer.h.3.attn.c_proj.weight', 'start': 48169058, 'stop': 48758882, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 3}",
+    "slice": [
+      48169058,
+      48758882
+    ]
+  },
+  {
+    "index": 28,
+    "is_muon": true,
+    "mapping_repr": "{'index': 28, 'name': 'transformer.h.3.attn.ve_gate.weight', 'start': 48758882, 'stop': 48758954, 'shape': (6, 12), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 3}",
+    "slice": [
+      48758882,
+      48758954
+    ]
+  },
+  {
+    "index": 29,
+    "is_muon": true,
+    "mapping_repr": "{'index': 29, 'name': 'transformer.h.3.mlp.c_fc.weight', 'start': 48758954, 'stop': 51118250, 'shape': (3072, 768), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 3}",
+    "slice": [
+      48758954,
+      51118250
+    ]
+  },
+  {
+    "index": 30,
+    "is_muon": true,
+    "mapping_repr": "{'index': 30, 'name': 'transformer.h.3.mlp.c_proj.weight', 'start': 51118250, 'stop': 53477546, 'shape': (768, 3072), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 3}",
+    "slice": [
+      51118250,
+      53477546
+    ]
+  },
+  {
+    "index": 31,
+    "is_muon": true,
+    "mapping_repr": "{'index': 31, 'name': 'transformer.h.4.attn.c_q.weight', 'start': 53477546, 'stop': 54067370, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 4}",
+    "slice": [
+      53477546,
+      54067370
+    ]
+  },
+  {
+    "index": 32,
+    "is_muon": true,
+    "mapping_repr": "{'index': 32, 'name': 'transformer.h.4.attn.c_k.weight', 'start': 54067370, 'stop': 54657194, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 4}",
+    "slice": [
+      54067370,
+      54657194
+    ]
+  },
+  {
+    "index": 33,
+    "is_muon": true,
+    "mapping_repr": "{'index': 33, 'name': 'transformer.h.4.attn.c_v.weight', 'start': 54657194, 'stop': 55247018, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 4}",
+    "slice": [
+      54657194,
+      55247018
+    ]
+  },
+  {
+    "index": 34,
+    "is_muon": true,
+    "mapping_repr": "{'index': 34, 'name': 'transformer.h.4.attn.c_proj.weight', 'start': 55247018, 'stop': 55836842, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 4}",
+    "slice": [
+      55247018,
+      55836842
+    ]
+  },
+  {
+    "index": 35,
+    "is_muon": true,
+    "mapping_repr": "{'index': 35, 'name': 'transformer.h.4.mlp.c_fc.weight', 'start': 55836842, 'stop': 58196138, 'shape': (3072, 768), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 4}",
+    "slice": [
+      55836842,
+      58196138
+    ]
+  },
+  {
+    "index": 36,
+    "is_muon": true,
+    "mapping_repr": "{'index': 36, 'name': 'transformer.h.4.mlp.c_proj.weight', 'start': 58196138, 'stop': 60555434, 'shape': (768, 3072), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 4}",
+    "slice": [
+      58196138,
+      60555434
+    ]
+  },
+  {
+    "index": 37,
+    "is_muon": true,
+    "mapping_repr": "{'index': 37, 'name': 'transformer.h.5.attn.c_q.weight', 'start': 60555434, 'stop': 61145258, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 5}",
+    "slice": [
+      60555434,
+      61145258
+    ]
+  },
+  {
+    "index": 38,
+    "is_muon": true,
+    "mapping_repr": "{'index': 38, 'name': 'transformer.h.5.attn.c_k.weight', 'start': 61145258, 'stop': 61735082, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 5}",
+    "slice": [
+      61145258,
+      61735082
+    ]
+  },
+  {
+    "index": 39,
+    "is_muon": true,
+    "mapping_repr": "{'index': 39, 'name': 'transformer.h.5.attn.c_v.weight', 'start': 61735082, 'stop': 62324906, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 5}",
+    "slice": [
+      61735082,
+      62324906
+    ]
+  },
+  {
+    "index": 40,
+    "is_muon": true,
+    "mapping_repr": "{'index': 40, 'name': 'transformer.h.5.attn.c_proj.weight', 'start': 62324906, 'stop': 62914730, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 5}",
+    "slice": [
+      62324906,
+      62914730
+    ]
+  },
+  {
+    "index": 41,
+    "is_muon": true,
+    "mapping_repr": "{'index': 41, 'name': 'transformer.h.5.attn.ve_gate.weight', 'start': 62914730, 'stop': 62914802, 'shape': (6, 12), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 5}",
+    "slice": [
+      62914730,
+      62914802
+    ]
+  },
+  {
+    "index": 42,
+    "is_muon": true,
+    "mapping_repr": "{'index': 42, 'name': 'transformer.h.5.mlp.c_fc.weight', 'start': 62914802, 'stop': 65274098, 'shape': (3072, 768), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 5}",
+    "slice": [
+      62914802,
+      65274098
+    ]
+  },
+  {
+    "index": 43,
+    "is_muon": true,
+    "mapping_repr": "{'index': 43, 'name': 'transformer.h.5.mlp.c_proj.weight', 'start': 65274098, 'stop': 67633394, 'shape': (768, 3072), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 5}",
+    "slice": [
+      65274098,
+      67633394
+    ]
+  },
+  {
+    "index": 44,
+    "is_muon": true,
+    "mapping_repr": "{'index': 44, 'name': 'transformer.h.6.attn.c_q.weight', 'start': 67633394, 'stop': 68223218, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 6}",
+    "slice": [
+      67633394,
+      68223218
+    ]
+  },
+  {
+    "index": 45,
+    "is_muon": true,
+    "mapping_repr": "{'index': 45, 'name': 'transformer.h.6.attn.c_k.weight', 'start': 68223218, 'stop': 68813042, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 6}",
+    "slice": [
+      68223218,
+      68813042
+    ]
+  },
+  {
+    "index": 46,
+    "is_muon": true,
+    "mapping_repr": "{'index': 46, 'name': 'transformer.h.6.attn.c_v.weight', 'start': 68813042, 'stop': 69402866, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 6}",
+    "slice": [
+      68813042,
+      69402866
+    ]
+  },
+  {
+    "index": 47,
+    "is_muon": true,
+    "mapping_repr": "{'index': 47, 'name': 'transformer.h.6.attn.c_proj.weight', 'start': 69402866, 'stop': 69992690, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 6}",
+    "slice": [
+      69402866,
+      69992690
+    ]
+  },
+  {
+    "index": 48,
+    "is_muon": true,
+    "mapping_repr": "{'index': 48, 'name': 'transformer.h.6.mlp.c_fc.weight', 'start': 69992690, 'stop': 72351986, 'shape': (3072, 768), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 6}",
+    "slice": [
+      69992690,
+      72351986
+    ]
+  },
+  {
+    "index": 49,
+    "is_muon": true,
+    "mapping_repr": "{'index': 49, 'name': 'transformer.h.6.mlp.c_proj.weight', 'start': 72351986, 'stop': 74711282, 'shape': (768, 3072), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 6}",
+    "slice": [
+      72351986,
+      74711282
+    ]
+  },
+  {
+    "index": 50,
+    "is_muon": true,
+    "mapping_repr": "{'index': 50, 'name': 'transformer.h.7.attn.c_q.weight', 'start': 74711282, 'stop': 75301106, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 7}",
+    "slice": [
+      74711282,
+      75301106
+    ]
+  },
+  {
+    "index": 51,
+    "is_muon": true,
+    "mapping_repr": "{'index': 51, 'name': 'transformer.h.7.attn.c_k.weight', 'start': 75301106, 'stop': 75890930, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 7}",
+    "slice": [
+      75301106,
+      75890930
+    ]
+  },
+  {
+    "index": 52,
+    "is_muon": true,
+    "mapping_repr": "{'index': 52, 'name': 'transformer.h.7.attn.c_v.weight', 'start': 75890930, 'stop': 76480754, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 7}",
+    "slice": [
+      75890930,
+      76480754
+    ]
+  },
+  {
+    "index": 53,
+    "is_muon": true,
+    "mapping_repr": "{'index': 53, 'name': 'transformer.h.7.attn.c_proj.weight', 'start': 76480754, 'stop': 77070578, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 7}",
+    "slice": [
+      76480754,
+      77070578
+    ]
+  },
+  {
+    "index": 54,
+    "is_muon": true,
+    "mapping_repr": "{'index': 54, 'name': 'transformer.h.7.attn.ve_gate.weight', 'start': 77070578, 'stop': 77070650, 'shape': (6, 12), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 7}",
+    "slice": [
+      77070578,
+      77070650
+    ]
+  },
+  {
+    "index": 55,
+    "is_muon": true,
+    "mapping_repr": "{'index': 55, 'name': 'transformer.h.7.mlp.c_fc.weight', 'start': 77070650, 'stop': 79429946, 'shape': (3072, 768), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 7}",
+    "slice": [
+      77070650,
+      79429946
+    ]
+  },
+  {
+    "index": 56,
+    "is_muon": true,
+    "mapping_repr": "{'index': 56, 'name': 'transformer.h.7.mlp.c_proj.weight', 'start': 79429946, 'stop': 81789242, 'shape': (768, 3072), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 7}",
+    "slice": [
+      79429946,
+      81789242
+    ]
+  },
+  {
+    "index": 57,
+    "is_muon": true,
+    "mapping_repr": "{'index': 57, 'name': 'transformer.h.8.attn.c_q.weight', 'start': 81789242, 'stop': 82379066, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 8}",
+    "slice": [
+      81789242,
+      82379066
+    ]
+  },
+  {
+    "index": 58,
+    "is_muon": true,
+    "mapping_repr": "{'index': 58, 'name': 'transformer.h.8.attn.c_k.weight', 'start': 82379066, 'stop': 82968890, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 8}",
+    "slice": [
+      82379066,
+      82968890
+    ]
+  },
+  {
+    "index": 59,
+    "is_muon": true,
+    "mapping_repr": "{'index': 59, 'name': 'transformer.h.8.attn.c_v.weight', 'start': 82968890, 'stop': 83558714, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 8}",
+    "slice": [
+      82968890,
+      83558714
+    ]
+  },
+  {
+    "index": 60,
+    "is_muon": true,
+    "mapping_repr": "{'index': 60, 'name': 'transformer.h.8.attn.c_proj.weight', 'start': 83558714, 'stop': 84148538, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 8}",
+    "slice": [
+      83558714,
+      84148538
+    ]
+  },
+  {
+    "index": 61,
+    "is_muon": true,
+    "mapping_repr": "{'index': 61, 'name': 'transformer.h.8.mlp.c_fc.weight', 'start': 84148538, 'stop': 86507834, 'shape': (3072, 768), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 8}",
+    "slice": [
+      84148538,
+      86507834
+    ]
+  },
+  {
+    "index": 62,
+    "is_muon": true,
+    "mapping_repr": "{'index': 62, 'name': 'transformer.h.8.mlp.c_proj.weight', 'start': 86507834, 'stop': 88867130, 'shape': (768, 3072), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 8}",
+    "slice": [
+      86507834,
+      88867130
+    ]
+  },
+  {
+    "index": 63,
+    "is_muon": true,
+    "mapping_repr": "{'index': 63, 'name': 'transformer.h.9.attn.c_q.weight', 'start': 88867130, 'stop': 89456954, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 9}",
+    "slice": [
+      88867130,
+      89456954
+    ]
+  },
+  {
+    "index": 64,
+    "is_muon": true,
+    "mapping_repr": "{'index': 64, 'name': 'transformer.h.9.attn.c_k.weight', 'start': 89456954, 'stop': 90046778, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 9}",
+    "slice": [
+      89456954,
+      90046778
+    ]
+  },
+  {
+    "index": 65,
+    "is_muon": true,
+    "mapping_repr": "{'index': 65, 'name': 'transformer.h.9.attn.c_v.weight', 'start': 90046778, 'stop': 90636602, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 9}",
+    "slice": [
+      90046778,
+      90636602
+    ]
+  },
+  {
+    "index": 66,
+    "is_muon": true,
+    "mapping_repr": "{'index': 66, 'name': 'transformer.h.9.attn.c_proj.weight', 'start': 90636602, 'stop': 91226426, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 9}",
+    "slice": [
+      90636602,
+      91226426
+    ]
+  },
+  {
+    "index": 67,
+    "is_muon": true,
+    "mapping_repr": "{'index': 67, 'name': 'transformer.h.9.attn.ve_gate.weight', 'start': 91226426, 'stop': 91226498, 'shape': (6, 12), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 9}",
+    "slice": [
+      91226426,
+      91226498
+    ]
+  },
+  {
+    "index": 68,
+    "is_muon": true,
+    "mapping_repr": "{'index': 68, 'name': 'transformer.h.9.mlp.c_fc.weight', 'start': 91226498, 'stop': 93585794, 'shape': (3072, 768), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 9}",
+    "slice": [
+      91226498,
+      93585794
+    ]
+  },
+  {
+    "index": 69,
+    "is_muon": true,
+    "mapping_repr": "{'index': 69, 'name': 'transformer.h.9.mlp.c_proj.weight', 'start': 93585794, 'stop': 95945090, 'shape': (768, 3072), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 9}",
+    "slice": [
+      93585794,
+      95945090
+    ]
+  },
+  {
+    "index": 70,
+    "is_muon": true,
+    "mapping_repr": "{'index': 70, 'name': 'transformer.h.10.attn.c_q.weight', 'start': 95945090, 'stop': 96534914, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 10}",
+    "slice": [
+      95945090,
+      96534914
+    ]
+  },
+  {
+    "index": 71,
+    "is_muon": true,
+    "mapping_repr": "{'index': 71, 'name': 'transformer.h.10.attn.c_k.weight', 'start': 96534914, 'stop': 97124738, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 10}",
+    "slice": [
+      96534914,
+      97124738
+    ]
+  },
+  {
+    "index": 72,
+    "is_muon": true,
+    "mapping_repr": "{'index': 72, 'name': 'transformer.h.10.attn.c_v.weight', 'start': 97124738, 'stop': 97714562, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 10}",
+    "slice": [
+      97124738,
+      97714562
+    ]
+  },
+  {
+    "index": 73,
+    "is_muon": true,
+    "mapping_repr": "{'index': 73, 'name': 'transformer.h.10.attn.c_proj.weight', 'start': 97714562, 'stop': 98304386, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 10}",
+    "slice": [
+      97714562,
+      98304386
+    ]
+  },
+  {
+    "index": 74,
+    "is_muon": true,
+    "mapping_repr": "{'index': 74, 'name': 'transformer.h.10.mlp.c_fc.weight', 'start': 98304386, 'stop': 100663682, 'shape': (3072, 768), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 10}",
+    "slice": [
+      98304386,
+      100663682
+    ]
+  },
+  {
+    "index": 75,
+    "is_muon": true,
+    "mapping_repr": "{'index': 75, 'name': 'transformer.h.10.mlp.c_proj.weight', 'start': 100663682, 'stop': 103022978, 'shape': (768, 3072), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 10}",
+    "slice": [
+      100663682,
+      103022978
+    ]
+  },
+  {
+    "index": 76,
+    "is_muon": true,
+    "mapping_repr": "{'index': 76, 'name': 'transformer.h.11.attn.c_q.weight', 'start': 103022978, 'stop': 103612802, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 11}",
+    "slice": [
+      103022978,
+      103612802
+    ]
+  },
+  {
+    "index": 77,
+    "is_muon": true,
+    "mapping_repr": "{'index': 77, 'name': 'transformer.h.11.attn.c_k.weight', 'start': 103612802, 'stop': 104202626, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 11}",
+    "slice": [
+      103612802,
+      104202626
+    ]
+  },
+  {
+    "index": 78,
+    "is_muon": true,
+    "mapping_repr": "{'index': 78, 'name': 'transformer.h.11.attn.c_v.weight', 'start': 104202626, 'stop': 104792450, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 11}",
+    "slice": [
+      104202626,
+      104792450
+    ]
+  },
+  {
+    "index": 79,
+    "is_muon": true,
+    "mapping_repr": "{'index': 79, 'name': 'transformer.h.11.attn.c_proj.weight', 'start': 104792450, 'stop': 105382274, 'shape': (768, 768), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 11}",
+    "slice": [
+      104792450,
+      105382274
+    ]
+  },
+  {
+    "index": 80,
+    "is_muon": true,
+    "mapping_repr": "{'index': 80, 'name': 'transformer.h.11.attn.ve_gate.weight', 'start': 105382274, 'stop': 105382346, 'shape': (6, 12), 'optimizer_kind': 'muon', 'role': 'attention', 'layer': 11}",
+    "slice": [
+      105382274,
+      105382346
+    ]
+  },
+  {
+    "index": 81,
+    "is_muon": true,
+    "mapping_repr": "{'index': 81, 'name': 'transformer.h.11.mlp.c_fc.weight', 'start': 105382346, 'stop': 107741642, 'shape': (3072, 768), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 11}",
+    "slice": [
+      105382346,
+      107741642
+    ]
+  },
+  {
+    "index": 82,
+    "is_muon": true,
+    "mapping_repr": "{'index': 82, 'name': 'transformer.h.11.mlp.c_proj.weight', 'start': 107741642, 'stop': 110100938, 'shape': (768, 3072), 'optimizer_kind': 'muon', 'role': 'mlp', 'layer': 11}",
+    "slice": [
+      107741642,
+      110100938
+    ]
+  },
+  {
+    "index": 83,
+    "is_muon": false,
+    "mapping_repr": "{'index': 83, 'name': 'lm_head.weight', 'start': 110100938, 'stop': 135266762, 'shape': (32768, 768), 'optimizer_kind': 'adamw', 'role': 'lm_head', 'layer': None}",
+    "slice": [
+      110100938,
+      135266762
+    ]
+  },
+  {
+    "index": 84,
+    "is_muon": false,
+    "mapping_repr": "{'index': 84, 'name': 'smear_gate.weight', 'start': 135266762, 'stop': 135266786, 'shape': (1, 24), 'optimizer_kind': 'adamw', 'role': 'scalar', 'layer': None}",
+    "slice": [
+      135266762,
+      135266786
+    ]
+  },
+  {
+    "index": 85,
+    "is_muon": false,
+    "mapping_repr": "{'index': 85, 'name': 'value_embeds.1.weight', 'start': 135266786, 'stop': 160432610, 'shape': (32768, 768), 'optimizer_kind': 'adamw', 'role': 'value_embed', 'layer': None}",
+    "slice": [
+      135266786,
+      160432610
+    ]
+  },
+  {
+    "index": 86,
+    "is_muon": false,
+    "mapping_repr": "{'index': 86, 'name': 'value_embeds.3.weight', 'start': 160432610, 'stop': 185598434, 'shape': (32768, 768), 'optimizer_kind': 'adamw', 'role': 'value_embed', 'layer': None}",
+    "slice": [
+      160432610,
+      185598434
+    ]
+  },
+  {
+    "index": 87,
+    "is_muon": false,
+    "mapping_repr": "{'index': 87, 'name': 'value_embeds.5.weight', 'start': 185598434, 'stop': 210764258, 'shape': (32768, 768), 'optimizer_kind': 'adamw', 'role': 'value_embed', 'layer': None}",
+    "slice": [
+      185598434,
+      210764258
+    ]
+  },
+  {
+    "index": 88,
+    "is_muon": false,
+    "mapping_repr": "{'index': 88, 'name': 'value_embeds.7.weight', 'start': 210764258, 'stop': 235930082, 'shape': (32768, 768), 'optimizer_kind': 'adamw', 'role': 'value_embed', 'layer': None}",
+    "slice": [
+      210764258,
+      235930082
+    ]
+  },
+  {
+    "index": 89,
+    "is_muon": false,
+    "mapping_repr": "{'index': 89, 'name': 'value_embeds.9.weight', 'start': 235930082, 'stop': 261095906, 'shape': (32768, 768), 'optimizer_kind': 'adamw', 'role': 'value_embed', 'layer': None}",
+    "slice": [
+      235930082,
+      261095906
+    ]
+  },
+  {
+    "index": 90,
+    "is_muon": false,
+    "mapping_repr": "{'index': 90, 'name': 'value_embeds.11.weight', 'start': 261095906, 'stop': 286261730, 'shape': (32768, 768), 'optimizer_kind': 'adamw', 'role': 'value_embed', 'layer': None}",
+    "slice": [
+      261095906,
+      286261730
+    ]
+  }
+]

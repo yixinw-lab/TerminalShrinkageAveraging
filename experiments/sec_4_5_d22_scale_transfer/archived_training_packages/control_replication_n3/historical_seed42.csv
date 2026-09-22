@@ -1,0 +1,4 @@
+seed,configuration,time_min,val_bpb,core
+42,pr830_early_stop_9p4_raw,77.09,0.721556,0.2522
+42,pr830_direct_9p0_raw,77.10,0.720258,0.2500
+42,floor15_tsa0587,77.37,0.720050,0.2601

@@ -1,0 +1,30 @@
+D12 GROUPWISE TERMINAL-FLOOR DIGEST
+===================================
+protocol_sha256=eb147c8ba6942590ce04d15e9b0667e597153573ccce58325c5f918320c9e30a
+streams=8 fresh paired native trajectories
+mapped_floors={"embedding": 0.05, "hidden": 0.15000000000000002, "rest": 0.08846153846153845, "unembed": 0.11923076923076922}
+parameter_count_matched_uniform_floor=0.085756649
+mapped_routing_modes=direct_param_group
+
+PRIMARY: structured TSA, mapped groupwise floor vs parameter-count-matched uniform floor
+gain=+0.000112317 ± 0.000294332 BPB
+95% interval=[-0.000182015, +0.000406649]
+verdict=NO RESOLVED GROUPWISE-FLOOR ADVANTAGE VS MATCHED UNIFORM
+
+PRIMARY INTERACTION: does mapped allocation help more under structured TSA than raw?
+interaction=+0.003516477 ± 0.000097995 BPB
+95% interval=[+0.003418482, +0.003614472]
+interaction_verdict=GROUPWISE SCHEDULE-ESTIMATOR INTERACTION RESOLVED
+
+mapped structured vs uniform10 structured: -0.000140098 ± 0.000281391 BPB
+mapped raw vs matched-uniform raw: -0.003404160 ± 0.000385557 BPB
+full recipe (mapped structured) vs uniform05 raw: +0.000990945 ± 0.000375151 BPB
+structured increment over scalar055 on mapped schedule: +0.000321929 ± 0.000061256 BPB
+uniform10-vs-uniform05 interaction on new streams: +0.001474082 ± 0.000085590 BPB
+
+See:
+  figures/paired_contrasts.csv
+  figures/arm_summary.csv
+  figures/per_seed.csv
+  figures/groupwise_floor_summary.png
+  figures/APPENDIX_DRAFT.md

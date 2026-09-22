@@ -1,0 +1,11 @@
+role,optimizer,floor,stream_seed
+development,native,0.10,6103
+development,native,0.10,7203
+development,native,0.10,8303
+development,native,0.10,9403
+development,native,0.10,10503
+development,pure_adamw,0.10,6103
+development,pure_adamw,0.10,7203
+development,pure_adamw,0.10,8303
+development,pure_adamw,0.10,9403
+development,pure_adamw,0.10,10503

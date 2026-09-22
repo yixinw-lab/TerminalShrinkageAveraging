@@ -1,0 +1,2658 @@
+{
+  "source": "Transcribed from the manuscript tables and accompanying numerical statements; values are rounded to manuscript precision.",
+  "checks": [
+    {
+      "paper_item": "Table 1",
+      "path": "results/sec_4_3_schedule_estimator_interaction/table_01_sec_4_3_schedule_estimator_interaction.csv",
+      "match": {
+        "active_floor": "0.1"
+      },
+      "field": "raw_mean",
+      "expected": 0.000915,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 1",
+      "path": "results/sec_4_3_schedule_estimator_interaction/table_01_sec_4_3_schedule_estimator_interaction.csv",
+      "match": {
+        "active_floor": "0.1"
+      },
+      "field": "raw_ci95_halfwidth",
+      "expected": 0.000836,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 1",
+      "path": "results/sec_4_3_schedule_estimator_interaction/table_01_sec_4_3_schedule_estimator_interaction.csv",
+      "match": {
+        "active_floor": "0.1"
+      },
+      "field": "tsa_alpha_055_mean",
+      "expected": -0.000487,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 1",
+      "path": "results/sec_4_3_schedule_estimator_interaction/table_01_sec_4_3_schedule_estimator_interaction.csv",
+      "match": {
+        "active_floor": "0.1"
+      },
+      "field": "tsa_alpha_055_ci95_halfwidth",
+      "expected": 0.000791,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 1",
+      "path": "results/sec_4_3_schedule_estimator_interaction/table_01_sec_4_3_schedule_estimator_interaction.csv",
+      "match": {
+        "active_floor": "0.1"
+      },
+      "field": "interaction_mean",
+      "expected": 0.001402,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 1",
+      "path": "results/sec_4_3_schedule_estimator_interaction/table_01_sec_4_3_schedule_estimator_interaction.csv",
+      "match": {
+        "active_floor": "0.1"
+      },
+      "field": "interaction_ci95_halfwidth",
+      "expected": 9.2e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 1",
+      "path": "results/sec_4_3_schedule_estimator_interaction/table_01_sec_4_3_schedule_estimator_interaction.csv",
+      "match": {
+        "active_floor": "0.15"
+      },
+      "field": "raw_mean",
+      "expected": 0.003757,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 1",
+      "path": "results/sec_4_3_schedule_estimator_interaction/table_01_sec_4_3_schedule_estimator_interaction.csv",
+      "match": {
+        "active_floor": "0.15"
+      },
+      "field": "raw_ci95_halfwidth",
+      "expected": 0.000769,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 1",
+      "path": "results/sec_4_3_schedule_estimator_interaction/table_01_sec_4_3_schedule_estimator_interaction.csv",
+      "match": {
+        "active_floor": "0.15"
+      },
+      "field": "tsa_alpha_055_mean",
+      "expected": -0.000844,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 1",
+      "path": "results/sec_4_3_schedule_estimator_interaction/table_01_sec_4_3_schedule_estimator_interaction.csv",
+      "match": {
+        "active_floor": "0.15"
+      },
+      "field": "tsa_alpha_055_ci95_halfwidth",
+      "expected": 0.000737,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 1",
+      "path": "results/sec_4_3_schedule_estimator_interaction/table_01_sec_4_3_schedule_estimator_interaction.csv",
+      "match": {
+        "active_floor": "0.15"
+      },
+      "field": "interaction_mean",
+      "expected": 0.004601,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 1",
+      "path": "results/sec_4_3_schedule_estimator_interaction/table_01_sec_4_3_schedule_estimator_interaction.csv",
+      "match": {
+        "active_floor": "0.15"
+      },
+      "field": "interaction_ci95_halfwidth",
+      "expected": 9.1e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "pr830_early_stop_9p4_raw"
+      },
+      "field": "time_min_mean",
+      "expected": 78.028,
+      "decimal_places": 3,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "pr830_early_stop_9p4_raw"
+      },
+      "field": "time_min_ci95_halfwidth",
+      "expected": 2.023,
+      "decimal_places": 3,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "pr830_early_stop_9p4_raw"
+      },
+      "field": "val_bpb_mean",
+      "expected": 0.721617,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "pr830_early_stop_9p4_raw"
+      },
+      "field": "val_bpb_ci95_halfwidth",
+      "expected": 0.000624,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "pr830_early_stop_9p4_raw"
+      },
+      "field": "core_mean",
+      "expected": 0.2479,
+      "decimal_places": 4,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "pr830_early_stop_9p4_raw"
+      },
+      "field": "core_ci95_halfwidth",
+      "expected": 0.02,
+      "decimal_places": 4,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "pr830_direct_9p0_raw"
+      },
+      "field": "time_min_mean",
+      "expected": 77.999,
+      "decimal_places": 3,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "pr830_direct_9p0_raw"
+      },
+      "field": "time_min_ci95_halfwidth",
+      "expected": 1.938,
+      "decimal_places": 3,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "pr830_direct_9p0_raw"
+      },
+      "field": "val_bpb_mean",
+      "expected": 0.720235,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "pr830_direct_9p0_raw"
+      },
+      "field": "val_bpb_ci95_halfwidth",
+      "expected": 0.000735,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "pr830_direct_9p0_raw"
+      },
+      "field": "core_mean",
+      "expected": 0.2491,
+      "decimal_places": 4,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "pr830_direct_9p0_raw"
+      },
+      "field": "core_ci95_halfwidth",
+      "expected": 0.0106,
+      "decimal_places": 4,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "floor15_direct9_tsa0700"
+      },
+      "field": "time_min_mean",
+      "expected": 77.896,
+      "decimal_places": 3,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "floor15_direct9_tsa0700"
+      },
+      "field": "time_min_ci95_halfwidth",
+      "expected": 0.029,
+      "decimal_places": 3,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "floor15_direct9_tsa0700"
+      },
+      "field": "val_bpb_mean",
+      "expected": 0.71958,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "floor15_direct9_tsa0700"
+      },
+      "field": "val_bpb_ci95_halfwidth",
+      "expected": 0.000562,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "floor15_direct9_tsa0700"
+      },
+      "field": "core_mean",
+      "expected": 0.2579,
+      "decimal_places": 4,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 2",
+      "path": "results/sec_4_5_d22_scale_transfer/table_02_sec_4_5_d22_scale_transfer.csv",
+      "match": {
+        "configuration_id": "floor15_direct9_tsa0700"
+      },
+      "field": "core_ci95_halfwidth",
+      "expected": 0.0159,
+      "decimal_places": 4,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "best_tested_alpha",
+      "expected": 0.4,
+      "decimal_places": 2,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "mean",
+      "expected": 0.000794,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 8.7e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "best_tested_alpha",
+      "expected": 0.55,
+      "decimal_places": 2,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "mean",
+      "expected": 0.002113,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000154,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "best_tested_alpha",
+      "expected": 0.7,
+      "decimal_places": 2,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "mean",
+      "expected": 0.005543,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000166,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "best_tested_alpha",
+      "expected": 0.3,
+      "decimal_places": 2,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "mean",
+      "expected": 0.000269,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 5.3e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "best_tested_alpha",
+      "expected": 0.5,
+      "decimal_places": 2,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "mean",
+      "expected": 0.000945,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000116,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "best_tested_alpha",
+      "expected": 0.65,
+      "decimal_places": 2,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "mean",
+      "expected": 0.00277,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 3",
+      "path": "results/app_b_1_shrinkage_across_floors/table_03_app_b_1_scalar_optima.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000295,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "scalar_gain",
+      "expected": 0.000711,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "scalar_ci95_halfwidth",
+      "expected": 9.8e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "structured_gain",
+      "expected": 0.00073,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "structured_ci95_halfwidth",
+      "expected": 0.000108,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "difference",
+      "expected": 1.9e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "difference_ci95_halfwidth",
+      "expected": 4.9e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "scalar_gain",
+      "expected": 0.002113,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "scalar_ci95_halfwidth",
+      "expected": 0.000154,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "structured_gain",
+      "expected": 0.002153,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "structured_ci95_halfwidth",
+      "expected": 0.00012,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "difference",
+      "expected": 4e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "difference_ci95_halfwidth",
+      "expected": 5e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "scalar_gain",
+      "expected": 0.005312,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "scalar_ci95_halfwidth",
+      "expected": 0.000155,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "structured_gain",
+      "expected": 0.005369,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "structured_ci95_halfwidth",
+      "expected": 0.000117,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "difference",
+      "expected": 5.7e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "difference_ci95_halfwidth",
+      "expected": 7e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "scalar_gain",
+      "expected": 0.000192,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "scalar_ci95_halfwidth",
+      "expected": 8.1e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "structured_gain",
+      "expected": 0.000243,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "structured_ci95_halfwidth",
+      "expected": 7.1e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "difference",
+      "expected": 5.1e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "difference_ci95_halfwidth",
+      "expected": 3.3e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "scalar_gain",
+      "expected": 0.000945,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "scalar_ci95_halfwidth",
+      "expected": 0.000116,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "structured_gain",
+      "expected": 0.000992,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "structured_ci95_halfwidth",
+      "expected": 0.000105,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "difference",
+      "expected": 4.6e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "difference_ci95_halfwidth",
+      "expected": 1.7e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "scalar_gain",
+      "expected": 0.002609,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "scalar_ci95_halfwidth",
+      "expected": 0.000242,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "structured_gain",
+      "expected": 0.002597,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "structured_ci95_halfwidth",
+      "expected": 0.000243,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "difference",
+      "expected": -1.2e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 4",
+      "path": "results/app_b_5_two_group_shrinkage/table_04_app_b_5_structured_vs_scalar.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "difference_ci95_halfwidth",
+      "expected": 3.7e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "matrix_gain",
+      "expected": 0.000673,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "matrix_ci95_halfwidth",
+      "expected": 0.000149,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "complement_gain",
+      "expected": 4.4e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "complement_ci95_halfwidth",
+      "expected": 7.2e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "difference",
+      "expected": 0.000629,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "difference_ci95_halfwidth",
+      "expected": 0.000192,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "matrix_gain",
+      "expected": 0.002013,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "matrix_ci95_halfwidth",
+      "expected": 0.00012,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "complement_gain",
+      "expected": 0.000186,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "complement_ci95_halfwidth",
+      "expected": 4.9e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "difference",
+      "expected": 0.001828,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "difference_ci95_halfwidth",
+      "expected": 9e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "matrix_gain",
+      "expected": 0.004957,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "matrix_ci95_halfwidth",
+      "expected": 0.000136,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "complement_gain",
+      "expected": 0.00056,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "complement_ci95_halfwidth",
+      "expected": 7.4e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "difference",
+      "expected": 0.004396,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "difference_ci95_halfwidth",
+      "expected": 0.00015,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "matrix_gain",
+      "expected": 0.000255,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "matrix_ci95_halfwidth",
+      "expected": 6.5e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "complement_gain",
+      "expected": 2.4e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "complement_ci95_halfwidth",
+      "expected": 2.8e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "difference",
+      "expected": 0.000231,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "difference_ci95_halfwidth",
+      "expected": 5.6e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "matrix_gain",
+      "expected": 0.000889,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "matrix_ci95_halfwidth",
+      "expected": 9.9e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "complement_gain",
+      "expected": 0.000188,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "complement_ci95_halfwidth",
+      "expected": 3.2e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "difference",
+      "expected": 0.000701,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "difference_ci95_halfwidth",
+      "expected": 8.1e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "matrix_gain",
+      "expected": 0.002208,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "matrix_ci95_halfwidth",
+      "expected": 0.000204,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "complement_gain",
+      "expected": 0.000533,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "complement_ci95_halfwidth",
+      "expected": 7.4e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "difference",
+      "expected": 0.001676,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 5",
+      "path": "results/app_b_5_two_group_shrinkage/table_05_app_b_5_matrix_vs_complement.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "difference_ci95_halfwidth",
+      "expected": 0.00017,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 6",
+      "path": "results/app_b_6_parameter_role_shrinkage/table_06_app_b_6_frozen_role_rule.csv",
+      "match": {
+        "parameter_group": "Embedding parameters"
+      },
+      "field": "alpha",
+      "expected": 0,
+      "decimal_places": 2,
+      "basis": "verified_development_freeze_and_weight_formula"
+    },
+    {
+      "paper_item": "Table 6",
+      "path": "results/app_b_6_parameter_role_shrinkage/table_06_app_b_6_frozen_role_rule.csv",
+      "match": {
+        "parameter_group": "Embedding parameters"
+      },
+      "field": "newest_checkpoint_weight",
+      "expected": 1,
+      "decimal_places": 3,
+      "basis": "verified_development_freeze_and_weight_formula"
+    },
+    {
+      "paper_item": "Table 6",
+      "path": "results/app_b_6_parameter_role_shrinkage/table_06_app_b_6_frozen_role_rule.csv",
+      "match": {
+        "parameter_group": "Hidden matrices"
+      },
+      "field": "alpha",
+      "expected": 0.65,
+      "decimal_places": 2,
+      "basis": "verified_development_freeze_and_weight_formula"
+    },
+    {
+      "paper_item": "Table 6",
+      "path": "results/app_b_6_parameter_role_shrinkage/table_06_app_b_6_frozen_role_rule.csv",
+      "match": {
+        "parameter_group": "Hidden matrices"
+      },
+      "field": "newest_checkpoint_weight",
+      "expected": 0.431,
+      "decimal_places": 3,
+      "basis": "verified_development_freeze_and_weight_formula"
+    },
+    {
+      "paper_item": "Table 6",
+      "path": "results/app_b_6_parameter_role_shrinkage/table_06_app_b_6_frozen_role_rule.csv",
+      "match": {
+        "parameter_group": "Unembedding matrix"
+      },
+      "field": "alpha",
+      "expected": 0.45,
+      "decimal_places": 2,
+      "basis": "verified_development_freeze_and_weight_formula"
+    },
+    {
+      "paper_item": "Table 6",
+      "path": "results/app_b_6_parameter_role_shrinkage/table_06_app_b_6_frozen_role_rule.csv",
+      "match": {
+        "parameter_group": "Unembedding matrix"
+      },
+      "field": "newest_checkpoint_weight",
+      "expected": 0.606,
+      "decimal_places": 3,
+      "basis": "verified_development_freeze_and_weight_formula"
+    },
+    {
+      "paper_item": "Table 6",
+      "path": "results/app_b_6_parameter_role_shrinkage/table_06_app_b_6_frozen_role_rule.csv",
+      "match": {
+        "parameter_group": "Scalars and other parameters"
+      },
+      "field": "alpha",
+      "expected": 0.25,
+      "decimal_places": 2,
+      "basis": "verified_development_freeze_and_weight_formula"
+    },
+    {
+      "paper_item": "Table 6",
+      "path": "results/app_b_6_parameter_role_shrinkage/table_06_app_b_6_frozen_role_rule.csv",
+      "match": {
+        "parameter_group": "Scalars and other parameters"
+      },
+      "field": "newest_checkpoint_weight",
+      "expected": 0.781,
+      "decimal_places": 3,
+      "basis": "verified_development_freeze_and_weight_formula"
+    },
+    {
+      "paper_item": "Table 7",
+      "path": "results/app_b_7_groupwise_terminal_floors/table_07_app_b_7_groupwise_floor_intervention.csv",
+      "match": {
+        "returned_estimator": "Raw final iterate"
+      },
+      "field": "effect",
+      "expected": 0.003404,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 7",
+      "path": "results/app_b_7_groupwise_terminal_floors/table_07_app_b_7_groupwise_floor_intervention.csv",
+      "match": {
+        "returned_estimator": "Raw final iterate"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000386,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 7",
+      "path": "results/app_b_7_groupwise_terminal_floors/table_07_app_b_7_groupwise_floor_intervention.csv",
+      "match": {
+        "returned_estimator": "Raw final iterate"
+      },
+      "field": "ci95_low",
+      "expected": 0.003019,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 7",
+      "path": "results/app_b_7_groupwise_terminal_floors/table_07_app_b_7_groupwise_floor_intervention.csv",
+      "match": {
+        "returned_estimator": "Raw final iterate"
+      },
+      "field": "ci95_high",
+      "expected": 0.00379,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 7",
+      "path": "results/app_b_7_groupwise_terminal_floors/table_07_app_b_7_groupwise_floor_intervention.csv",
+      "match": {
+        "returned_estimator": "Frozen groupwise TSA"
+      },
+      "field": "effect",
+      "expected": -0.000112,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 7",
+      "path": "results/app_b_7_groupwise_terminal_floors/table_07_app_b_7_groupwise_floor_intervention.csv",
+      "match": {
+        "returned_estimator": "Frozen groupwise TSA"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000294,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 7",
+      "path": "results/app_b_7_groupwise_terminal_floors/table_07_app_b_7_groupwise_floor_intervention.csv",
+      "match": {
+        "returned_estimator": "Frozen groupwise TSA"
+      },
+      "field": "ci95_low",
+      "expected": -0.000407,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 7",
+      "path": "results/app_b_7_groupwise_terminal_floors/table_07_app_b_7_groupwise_floor_intervention.csv",
+      "match": {
+        "returned_estimator": "Frozen groupwise TSA"
+      },
+      "field": "ci95_high",
+      "expected": 0.000182,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 7",
+      "path": "results/app_b_7_groupwise_terminal_floors/table_07_app_b_7_groupwise_floor_intervention.csv",
+      "match": {
+        "returned_estimator": "Interaction"
+      },
+      "field": "effect",
+      "expected": 0.003516,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 7",
+      "path": "results/app_b_7_groupwise_terminal_floors/table_07_app_b_7_groupwise_floor_intervention.csv",
+      "match": {
+        "returned_estimator": "Interaction"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 9.8e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 7",
+      "path": "results/app_b_7_groupwise_terminal_floors/table_07_app_b_7_groupwise_floor_intervention.csv",
+      "match": {
+        "returned_estimator": "Interaction"
+      },
+      "field": "ci95_low",
+      "expected": 0.003418,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 7",
+      "path": "results/app_b_7_groupwise_terminal_floors/table_07_app_b_7_groupwise_floor_intervention.csv",
+      "match": {
+        "returned_estimator": "Interaction"
+      },
+      "field": "ci95_high",
+      "expected": 0.003614,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0"
+      },
+      "field": "validation_bpb",
+      "expected": 1.061224,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0"
+      },
+      "field": "gain",
+      "expected": 0,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.1"
+      },
+      "field": "validation_bpb",
+      "expected": 1.060872,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.1"
+      },
+      "field": "gain",
+      "expected": 0.000352,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.1"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 7.4e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.2"
+      },
+      "field": "validation_bpb",
+      "expected": 1.060623,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.2"
+      },
+      "field": "gain",
+      "expected": 0.000602,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.2"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000104,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.3"
+      },
+      "field": "validation_bpb",
+      "expected": 1.060483,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.3"
+      },
+      "field": "gain",
+      "expected": 0.000741,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.3"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000138,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.4"
+      },
+      "field": "validation_bpb",
+      "expected": 1.060458,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.4"
+      },
+      "field": "gain",
+      "expected": 0.000766,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.4"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000176,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.5"
+      },
+      "field": "validation_bpb",
+      "expected": 1.060499,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.5"
+      },
+      "field": "gain",
+      "expected": 0.000725,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.5"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000212,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.55"
+      },
+      "field": "validation_bpb",
+      "expected": 1.060554,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.55"
+      },
+      "field": "gain",
+      "expected": 0.00067,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.55"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000225,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.6"
+      },
+      "field": "validation_bpb",
+      "expected": 1.060679,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.6"
+      },
+      "field": "gain",
+      "expected": 0.000546,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.6"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000258,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.65"
+      },
+      "field": "validation_bpb",
+      "expected": 1.06076,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.65"
+      },
+      "field": "gain",
+      "expected": 0.000465,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.65"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000288,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.7"
+      },
+      "field": "validation_bpb",
+      "expected": 1.060852,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.7"
+      },
+      "field": "gain",
+      "expected": 0.000372,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.7"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000299,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.75"
+      },
+      "field": "validation_bpb",
+      "expected": 1.060985,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.75"
+      },
+      "field": "gain",
+      "expected": 0.000239,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.75"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000324,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.8"
+      },
+      "field": "validation_bpb",
+      "expected": 1.06119,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.8"
+      },
+      "field": "gain",
+      "expected": 3.5e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.8"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000346,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.9"
+      },
+      "field": "validation_bpb",
+      "expected": 1.06157,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.9"
+      },
+      "field": "gain",
+      "expected": -0.000346,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "0.9"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000373,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "1"
+      },
+      "field": "validation_bpb",
+      "expected": 1.062068,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "1"
+      },
+      "field": "gain",
+      "expected": -0.000844,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 8",
+      "path": "results/app_b_8_preliminary_sweeps/table_08_app_b_8_scalar_sweep.csv",
+      "match": {
+        "alpha": "1"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000424,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.05"
+      },
+      "field": "validation_bpb",
+      "expected": 1.061224,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.05"
+      },
+      "field": "effect",
+      "expected": 0,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.05"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.1"
+      },
+      "field": "validation_bpb",
+      "expected": 1.062482,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.1"
+      },
+      "field": "effect",
+      "expected": 0.001257,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.1"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.001399,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.125"
+      },
+      "field": "validation_bpb",
+      "expected": 1.063779,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.125"
+      },
+      "field": "effect",
+      "expected": 0.002555,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.125"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.001529,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.15"
+      },
+      "field": "validation_bpb",
+      "expected": 1.065003,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.15"
+      },
+      "field": "effect",
+      "expected": 0.003779,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.15"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.00145,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.175"
+      },
+      "field": "validation_bpb",
+      "expected": 1.068508,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.175"
+      },
+      "field": "effect",
+      "expected": 0.007284,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 9",
+      "path": "results/app_b_8_preliminary_sweeps/table_09_app_b_8_floor_sweep.csv",
+      "match": {
+        "floor": "0.175"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.001431,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "best_tested_alpha",
+      "expected": 0.4,
+      "decimal_places": 2,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "fitted_vertex",
+      "expected": 0.419,
+      "decimal_places": 3,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.05"
+      },
+      "field": "r_squared",
+      "expected": 0.99977,
+      "decimal_places": 5,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "best_tested_alpha",
+      "expected": 0.55,
+      "decimal_places": 2,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "fitted_vertex",
+      "expected": 0.547,
+      "decimal_places": 3,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.1"
+      },
+      "field": "r_squared",
+      "expected": 0.99976,
+      "decimal_places": 5,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "best_tested_alpha",
+      "expected": 0.7,
+      "decimal_places": 2,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "fitted_vertex",
+      "expected": 0.701,
+      "decimal_places": 3,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "native",
+        "floor": "0.15"
+      },
+      "field": "r_squared",
+      "expected": 0.9997,
+      "decimal_places": 5,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "best_tested_alpha",
+      "expected": 0.3,
+      "decimal_places": 2,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "fitted_vertex",
+      "expected": 0.33,
+      "decimal_places": 3,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.05"
+      },
+      "field": "r_squared",
+      "expected": 0.99984,
+      "decimal_places": 5,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "best_tested_alpha",
+      "expected": 0.5,
+      "decimal_places": 2,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "fitted_vertex",
+      "expected": 0.499,
+      "decimal_places": 3,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.1"
+      },
+      "field": "r_squared",
+      "expected": 0.9995,
+      "decimal_places": 5,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "best_tested_alpha",
+      "expected": 0.65,
+      "decimal_places": 2,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "fitted_vertex",
+      "expected": 0.668,
+      "decimal_places": 3,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Table 10",
+      "path": "results/app_b_9_quadratic_response/table_10_app_b_9_quadratic_fits.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "floor": "0.15"
+      },
+      "field": "r_squared",
+      "expected": 0.99993,
+      "decimal_places": 5,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Section 4.4 / Figure 4",
+      "path": "results/sec_4_4_adamw_replication/fig_04_sec_4_4_fixed_alpha_interactions.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "active_floor": "0.1"
+      },
+      "field": "mean",
+      "expected": 0.000782,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Section 4.4 / Figure 4",
+      "path": "results/sec_4_4_adamw_replication/fig_04_sec_4_4_fixed_alpha_interactions.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "active_floor": "0.1"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 8.9e-05,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Section 4.4 / Figure 4",
+      "path": "results/sec_4_4_adamw_replication/fig_04_sec_4_4_fixed_alpha_interactions.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "active_floor": "0.15"
+      },
+      "field": "mean",
+      "expected": 0.002536,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Section 4.4 / Figure 4",
+      "path": "results/sec_4_4_adamw_replication/fig_04_sec_4_4_fixed_alpha_interactions.csv",
+      "match": {
+        "optimizer": "pure_adamw",
+        "active_floor": "0.15"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000204,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Appendix B.2–B.4 / Figure 7",
+      "path": "results/app_b_3_b_4_alternative_estimators/fig_07_app_b_3_b_4_displayed_estimators.csv",
+      "match": {
+        "recipe": "tsa:k8:s32:a0.550"
+      },
+      "field": "mean",
+      "expected": 0.00207,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Appendix B.2–B.4 / Figure 7",
+      "path": "results/app_b_3_b_4_alternative_estimators/fig_07_app_b_3_b_4_displayed_estimators.csv",
+      "match": {
+        "recipe": "tsa:k8:s32:a0.550"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000205,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Appendix B.2–B.4 / Figure 7",
+      "path": "results/app_b_3_b_4_alternative_estimators/fig_07_app_b_3_b_4_displayed_estimators.csv",
+      "match": {
+        "recipe": "adaptive:hybrid:8:32:1.0:all"
+      },
+      "field": "mean",
+      "expected": 0.002002,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Appendix B.2–B.4 / Figure 7",
+      "path": "results/app_b_3_b_4_alternative_estimators/fig_07_app_b_3_b_4_displayed_estimators.csv",
+      "match": {
+        "recipe": "adaptive:hybrid:8:32:1.0:all"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.00017,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Appendix B.2–B.4 / Figure 7",
+      "path": "results/app_b_3_b_4_alternative_estimators/fig_07_app_b_3_b_4_displayed_estimators.csv",
+      "match": {
+        "recipe": "ewa:beta0.75:k8:s32"
+      },
+      "field": "mean",
+      "expected": 0.00191,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Appendix B.2–B.4 / Figure 7",
+      "path": "results/app_b_3_b_4_alternative_estimators/fig_07_app_b_3_b_4_displayed_estimators.csv",
+      "match": {
+        "recipe": "ewa:beta0.75:k8:s32"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000209,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Appendix B.2–B.4 / Figure 7",
+      "path": "results/app_b_3_b_4_alternative_estimators/fig_07_app_b_3_b_4_displayed_estimators.csv",
+      "match": {
+        "recipe": "ema:0.95:16:16"
+      },
+      "field": "mean",
+      "expected": 0.001113,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Appendix B.2–B.4 / Figure 7",
+      "path": "results/app_b_3_b_4_alternative_estimators/fig_07_app_b_3_b_4_displayed_estimators.csv",
+      "match": {
+        "recipe": "ema:0.95:16:16"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.00025,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Appendix B.2–B.4 / Figure 7",
+      "path": "results/app_b_3_b_4_alternative_estimators/fig_07_app_b_3_b_4_displayed_estimators.csv",
+      "match": {
+        "recipe": "lawa:k8:s32:a1.000"
+      },
+      "field": "mean",
+      "expected": 0.000684,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Appendix B.2–B.4 / Figure 7",
+      "path": "results/app_b_3_b_4_alternative_estimators/fig_07_app_b_3_b_4_displayed_estimators.csv",
+      "match": {
+        "recipe": "lawa:k8:s32:a1.000"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000261,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Appendix B.2–B.4 / Figure 7",
+      "path": "results/app_b_3_b_4_alternative_estimators/fig_07_app_b_3_b_4_displayed_estimators.csv",
+      "match": {
+        "recipe": "swastyle:32:16"
+      },
+      "field": "mean",
+      "expected": -0.000775,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    },
+    {
+      "paper_item": "Appendix B.2–B.4 / Figure 7",
+      "path": "results/app_b_3_b_4_alternative_estimators/fig_07_app_b_3_b_4_displayed_estimators.csv",
+      "match": {
+        "recipe": "swastyle:32:16"
+      },
+      "field": "ci95_halfwidth",
+      "expected": 0.000375,
+      "decimal_places": 6,
+      "basis": "recomputed_from_saved_records"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+D12 structured TSA rule freeze
+================================
+Selection used development trajectories and calibration batches only.
+
+optimizer=native
+structured=(group=0.625, other=0.250)
+scalar=0.550
+structured dev gain=+0.002163 +/- 0.000231
+scalar dev gain=+0.002101 +/- 0.000231
+structured-minus-scalar dev=+0.000062
+off_diagonal=True
+
+optimizer=pure_adamw
+structured=(group=0.625, other=0.250)
+scalar=0.500
+structured dev gain=+0.001007 +/- 0.000185
+scalar dev gain=+0.000945 +/- 0.000163
+structured-minus-scalar dev=+0.000062
+off_diagonal=True
+
+freeze_sha256=6734d02c5d5a05c96292828a09204fb42cff04d0d908c8d16f7569f7909bf703
+FREEZE COMPLETE

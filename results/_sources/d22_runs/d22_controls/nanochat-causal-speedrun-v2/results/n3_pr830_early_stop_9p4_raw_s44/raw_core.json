@@ -1,0 +1,13 @@
+{
+  "core_metric": 0.2529,
+  "log": "${D22_ROOT}/results/n3_pr830_early_stop_9p4_raw_s44/raw_core.log",
+  "meta": "${D22_ROOT}/data/base_checkpoints/n3_pr830_early_stop_9p4_raw_s44_train/meta_010172.json",
+  "model_tag": "n3_pr830_early_stop_9p4_raw_s44_train",
+  "ratio": 9.0,
+  "recipe": "raw",
+  "step": 10172,
+  "total_training_time": 4706.159446954727,
+  "train_bpb": 0.723095,
+  "training_minutes": 78.43599078257878,
+  "val_bpb": 0.721893
+}

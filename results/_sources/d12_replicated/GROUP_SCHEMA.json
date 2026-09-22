@@ -1,0 +1,140 @@
+{
+  "candidate_probe": {
+    "make_averaged_candidate_kwargs": {
+      "adaptive_selector": "all",
+      "adaptive_strength": 1.0,
+      "n_layers": 12,
+      "selector": "muon",
+      "stats_rows": null
+    },
+    "make_averaged_candidate_signature": "(current: 'torch.Tensor', average_cpu: 'torch.Tensor', infos: 'Sequence[SliceInfo]', *, selector: 'str' = 'all', n_layers: 'Optional[int]' = None, adaptive_rule: 'Optional[str]' = None, adaptive_strength: 'float' = 1.0, stats_rows: 'Optional[Sequence[dict[str, Any]]]' = None, adaptive_selector: 'str' = 'all') -> 'tuple[torch.Tensor, list[dict[str, Any]]]'",
+    "max_selected_error": 7.450580596923828e-09,
+    "max_unselected_error": 0.0
+  },
+  "candidate_probe_error": null,
+  "group_a": {
+    "display_name_native": "Muon-managed",
+    "display_name_pure_adamw": "Muon-eligible matrix group (trained with AdamW)",
+    "fraction": 0.29670430623052546,
+    "id": "native_muon_managed",
+    "numel": 84935088,
+    "ranges": [
+      [
+        25165850,
+        110100938
+      ]
+    ]
+  },
+  "group_b": {
+    "display_name_native": "AdamW-managed",
+    "display_name_pure_adamw": "remaining parameter group (trained with AdamW)",
+    "fraction": 0.7032956937694745,
+    "id": "native_adamw_managed_complement",
+    "numel": 201326642
+  },
+  "group_definition": "coordinates assigned to Muon by the native NanoChat optimizer; the identical flattened-coordinate partition is reused for pure-AdamW runs so that the optimizer comparison preserves tensor roles",
+  "n_layers": 12,
+  "native_pack": {
+    "build_args": {
+      "aspect_ratio": 64,
+      "coeff_hidden": 16,
+      "coord_hidden": 8,
+      "coord_order": 2,
+      "coord_sample": 1024,
+      "depth": 12,
+      "device": "cuda",
+      "device_batch_size": 4,
+      "embedding_lr": 0.2,
+      "final_lr_frac": 0.05,
+      "grad_accum": 16,
+      "history": 64,
+      "history_device": "cuda",
+      "history_dtype": "bfloat16",
+      "matrix_adam_lr": 0.003,
+      "matrix_adam_weight_decay": 0.1,
+      "matrix_beta1": 0.9,
+      "matrix_beta2": 0.95,
+      "matrix_eps": 1e-10,
+      "matrix_lr": 0.02,
+      "max_seq_len": 512,
+      "optimizer": "native",
+      "predictor_lr": 0.001,
+      "projection_ridge": 0.0001,
+      "scalar_lr": 0.5,
+      "token_dim": 8,
+      "token_sample_max": 4096,
+      "total_iterations": 3000,
+      "unembedding_lr": 0.004,
+      "warmdown_ratio": 0.0,
+      "warmup_steps": 40,
+      "weight_decay": 0.28
+    },
+    "num_branch_batches": 51200,
+    "num_eval_batches": 256,
+    "optimizer": "native",
+    "pack_version": 3,
+    "path": "${PROJECT_ROOT}/outputs/optimization_paper/averaging_curves_d12_s5_v1/native_seed1337/pack.pt",
+    "prefix_steps": 0,
+    "size_bytes": 2509726332
+  },
+  "pure_adamw_pack": {
+    "build_args": {
+      "aspect_ratio": 64,
+      "coeff_hidden": 16,
+      "coord_hidden": 8,
+      "coord_order": 2,
+      "coord_sample": 1024,
+      "depth": 12,
+      "device": "cuda",
+      "device_batch_size": 4,
+      "embedding_lr": 0.2,
+      "final_lr_frac": 0.05,
+      "grad_accum": 16,
+      "history": 64,
+      "history_device": "cuda",
+      "history_dtype": "bfloat16",
+      "matrix_adam_lr": 0.003,
+      "matrix_adam_weight_decay": 0.1,
+      "matrix_beta1": 0.9,
+      "matrix_beta2": 0.95,
+      "matrix_eps": 1e-10,
+      "matrix_lr": 0.02,
+      "max_seq_len": 512,
+      "optimizer": "pure_adamw",
+      "predictor_lr": 0.001,
+      "projection_ridge": 0.0001,
+      "scalar_lr": 0.5,
+      "token_dim": 8,
+      "token_sample_max": 4096,
+      "total_iterations": 3000,
+      "unembedding_lr": 0.004,
+      "warmdown_ratio": 0.0,
+      "warmup_steps": 40,
+      "weight_decay": 0.28
+    },
+    "num_branch_batches": 51200,
+    "num_eval_batches": 256,
+    "optimizer": "pure_adamw",
+    "pack_version": 3,
+    "path": "${PROJECT_ROOT}/outputs/optimization_paper/averaging_curves_d12_s5_v1/pure_adamw_seed1337/pack.pt",
+    "prefix_steps": 0,
+    "size_bytes": 2509726332
+  },
+  "range_source": "trajectory_groups.make_averaged_candidate(selector=muon)",
+  "sampled_data_fingerprints": {
+    "branch_match": true,
+    "eval_match": true,
+    "native_branch": "2c1fc0206e59aa19755a2239e34364a794a5651b0554c75aa98b8cfbba70edb1",
+    "native_eval": "cd9f7d053d40a55d78f4a4c8db4c4b563f2271c47e3345e5683b3894d8282024",
+    "pure_adamw_branch": "2c1fc0206e59aa19755a2239e34364a794a5651b0554c75aa98b8cfbba70edb1",
+    "pure_adamw_eval": "cd9f7d053d40a55d78f4a4c8db4c4b563f2271c47e3345e5683b3894d8282024"
+  },
+  "sampled_initial_parameter_fingerprints": {
+    "match": true,
+    "native": "b69984b784dfcc046d3125ba5db7a1415d27a473ccdcf1d139ebe0dfedb5716f",
+    "pure_adamw": "b69984b784dfcc046d3125ba5db7a1415d27a473ccdcf1d139ebe0dfedb5716f"
+  },
+  "schema_sha256": "1954ad2d1fd3a30425ea9ed1945f2dd67fbbcd302f94568eec41426d470bb983",
+  "suite": "d12_structured_tsa_suite_v1",
+  "total_numel": 286261730
+}

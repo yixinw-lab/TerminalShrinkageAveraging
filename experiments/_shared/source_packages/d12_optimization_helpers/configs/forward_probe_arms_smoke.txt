@@ -1,0 +1,5 @@
+exact_lr:0.30
+eval_lawa_lr:0.40:4:4
+vf:mean:4:2:4:0.10:preserve:advance:1:0.0:all
+qf:mean:4:2:4:0.20:preserve:advance:1:0.0:all
+qf:dmd:2:2:4:0.20:preserve:advance:1:0.0:muon

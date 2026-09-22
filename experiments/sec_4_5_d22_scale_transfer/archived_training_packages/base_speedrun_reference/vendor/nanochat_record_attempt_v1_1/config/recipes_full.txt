@@ -1,0 +1,15 @@
+# Optional broader exploratory family; do not use for final confirmation selection twice.
+raw
+blend:0.25
+blend:0.40
+blend:0.50
+blend:0.587
+blend:0.65
+blend:0.75
+blend:0.875
+uniform
+adaptive:snr
+adaptive:autocorr
+adaptive:hybrid
+adaptive:max
+adaptive:product

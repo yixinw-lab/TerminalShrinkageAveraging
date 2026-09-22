@@ -1,0 +1,21 @@
+optimizer,active_floor,quantity,positive_means,n,mean,ci95_half,positive_seed_count
+native,0.1,schedule_effect_raw,active floor worsens BPB,5,0.0009151980526659997,0.000835829266527961,5
+native,0.1,schedule_effect_scalar_dev_selected,active floor worsens BPB,5,-0.00048706253206565187,0.0007907061931905901,1
+native,0.1,schedule_effect_structured_dev_selected,active floor worsens BPB,5,-0.00050808078114577,0.0008276745530841248,1
+native,0.1,interaction_raw_minus_structured,active schedule is more favorable under structured TSA,5,0.0014232788338117697,5.470627562375508e-05,5
+native,0.1,interaction_scalar_minus_structured,active schedule is more favorable under structured TSA,5,2.1018249080118067e-05,7.159538819845276e-05,3
+native,0.15,schedule_effect_raw,active floor worsens BPB,5,0.0037568787916029134,0.0007686546131662441,5
+native,0.15,schedule_effect_scalar_dev_selected,active floor worsens BPB,5,-0.0008439897232060733,0.0007370001208213915,0
+native,0.15,schedule_effect_structured_dev_selected,active floor worsens BPB,5,-0.0008821101119613317,0.0007321605586840651,0
+native,0.15,interaction_raw_minus_structured,active schedule is more favorable under structured TSA,5,0.004638988903564245,4.32632965909517e-05,5
+native,0.15,interaction_scalar_minus_structured,active schedule is more favorable under structured TSA,5,3.812038875525836e-05,8.636696028638086e-05,4
+pure_adamw,0.1,schedule_effect_raw,active floor worsens BPB,5,0.001124535726786302,0.002013861989190639,3
+pure_adamw,0.1,schedule_effect_scalar_dev_selected,active floor worsens BPB,5,0.0003708636399827103,0.0020557157224347492,3
+pure_adamw,0.1,schedule_effect_structured_dev_selected,active floor worsens BPB,5,0.00037555162560374276,0.0020581869676754706,3
+pure_adamw,0.1,interaction_raw_minus_structured,active schedule is more favorable under structured TSA,5,0.0007489841011825594,0.00010750245630965705,5
+pure_adamw,0.1,interaction_scalar_minus_structured,active schedule is more favorable under structured TSA,5,-4.687985621032453e-06,2.2962827152582906e-05,2
+pure_adamw,0.15,schedule_effect_raw,active floor worsens BPB,5,0.003441367252740646,0.007564107684285066,4
+pure_adamw,0.15,schedule_effect_scalar_dev_selected,active floor worsens BPB,5,0.0010241447443577023,0.0074704686296274,3
+pure_adamw,0.15,schedule_effect_structured_dev_selected,active floor worsens BPB,5,0.0010869983456916366,0.007455630701178762,3
+pure_adamw,0.15,interaction_raw_minus_structured,active schedule is more favorable under structured TSA,5,0.002354368907049009,0.00019308776095582167,5
+pure_adamw,0.15,interaction_scalar_minus_structured,active schedule is more favorable under structured TSA,5,-6.285360133393426e-05,1.7712668676871977e-05,0

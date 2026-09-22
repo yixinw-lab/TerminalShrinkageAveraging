@@ -1,0 +1,6 @@
+arm=tsa_clamp_x
+core_threshold=0.256525
+tsa_training_minutes=77.888070
+tsa_val_bpb=0.719358
+tsa_core=0.265200
+tsa_qualifies=YES

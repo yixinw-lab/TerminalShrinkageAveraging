@@ -1,0 +1,17 @@
+created_at=2026-08-27T14:55:25-05:00
+design=main_paper_d12_sequential_alpha_then_floor_selection
+root=${EXTRAP_ROOT}/outputs/optimization_paper/paper_main_d12_v1
+pack=${EXTRAP_ROOT}/outputs/optimization_paper/averaging_curves_d12_s5_v1/native_seed1337/pack.pt
+optimizer=native Muon+AdamW
+floors_file=${EXTRAP_ROOT}/configs/paper_main_floors.txt
+alpha_grid_file=${EXTRAP_ROOT}/configs/paper_main_alpha_grid.txt
+curve_steps_file=${EXTRAP_ROOT}/configs/paper_main_curve_steps.txt
+selection_protocol=curve32 / alpha_select64 / floor_select64 / holdout96
+alpha_selection=baseline 5% floor only
+floor_selection=frozen alpha on disjoint floor_select split
+headline_reporting=untouched holdout only
+primary_window=K8 spacing32
+endpoint_comparators=checkpoint EMA; SWA-style long late average; LAWA; adaptive tensor TSA
+max_parallel=4
+array_job=3035478
+merge_job=3035479

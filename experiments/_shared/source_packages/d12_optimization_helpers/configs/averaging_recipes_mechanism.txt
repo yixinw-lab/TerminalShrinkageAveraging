@@ -1,0 +1,38 @@
+# Baseline and uniform LAWA
+raw
+uniform:4:16
+uniform:8:16
+uniform:4:32
+uniform:8:32
+uniform:8:64
+
+# Which optimizer/architecture groups contain the averaging gain?
+group:muon:8:16
+group:adamw:8:16
+group:muon_attention:8:16
+group:muon_mlp:8:16
+group:attention:8:16
+group:mlp:8:16
+group:embedding:8:16
+group:value_embed:8:16
+group:lm_head:8:16
+group:scalar:8:16
+group:early:8:16
+group:middle:8:16
+group:late:8:16
+
+# Causal tensorwise averaging strength estimated from trajectory statistics
+adaptive:snr:8:16:1.0:all
+adaptive:autocorr:8:16:1.0:all
+adaptive:hybrid:8:16:1.0:all
+adaptive:hybrid:8:16:1.5:all
+adaptive:hybrid:8:16:1.0:muon
+adaptive:hybrid:8:32:1.0:muon
+adaptive:max:8:16:1.0:muon
+
+# Standard non-uniform temporal baselines
+ema:0.90:16:4
+ema:0.95:16:4
+ema:0.98:16:4
+recency:1.0:8:16
+recency:2.0:8:16

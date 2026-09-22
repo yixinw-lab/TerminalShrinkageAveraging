@@ -1,0 +1,67 @@
+{
+  "arms": [
+    "uniform05",
+    "uniform10",
+    "matched_uniform",
+    "mapped"
+  ],
+  "checkpoint_estimator": {
+    "K": 8,
+    "scalar_anchor_alpha": 0.55,
+    "spacing": 32,
+    "structured_alpha": {
+      "embedding": 0.0,
+      "hidden": 0.65,
+      "rest": 0.25,
+      "unembed": 0.45
+    }
+  },
+  "estimator_bucket_note": "The frozen structured-TSA estimator retains the exact preceding group-search semantics; its hidden bucket also includes the tiny set of layer-indexed 1D scales. LR routing instead places 1D layer scales in rest to match optimizer tensor groups.",
+  "evaluation": {
+    "holdout_batches": 96,
+    "holdout_slice": "last 96 pack evaluation batches",
+    "paired_by": "stream_seed"
+  },
+  "floor_map": {
+    "alpha_max": 0.65,
+    "floor_max": 0.15,
+    "floor_min": 0.05,
+    "formula": "rho_g = floor_min + (floor_max-floor_min) * alpha_g / alpha_max",
+    "rationale": "Map the frozen alpha range [0,0.65] monotonically onto the already studied 5%-15% floor range; no new-run tuning."
+  },
+  "frozen_tsa_alpha": {
+    "embedding": 0.0,
+    "hidden": 0.65,
+    "rest": 0.25,
+    "unembed": 0.45
+  },
+  "matched_uniform_definition": "parameter-count-weighted arithmetic mean of the mapped per-parameter floor coefficients, computed from the restored model before training",
+  "primary_contrast": "structured(mapped) minus structured(matched_uniform), reported as BPB(reference)-BPB(candidate); positive favors mapped",
+  "primary_interaction": "[raw(mapped)-raw(matched_uniform)] - [structured(mapped)-structured(matched_uniform)]; positive means mapped allocation is more favorable under structured TSA",
+  "protocol_sha256": "eb147c8ba6942590ce04d15e9b0667e597153573ccce58325c5f918320c9e30a",
+  "purpose": "Predeclared test of whether frozen parameterwise TSA heterogeneity predicts parameterwise terminal learning-rate floors.",
+  "schedule_bucket_semantics": {
+    "embedding": "non-layer token/value embedding tensors",
+    "hidden": "matrix-valued tensors carrying a transformer-layer index (the native hidden matrix block)",
+    "rest": "1D layer scales plus non-layer scalar/other parameters",
+    "unembed": "output/unembedding matrix"
+  },
+  "secondary_contrasts": [
+    "structured(mapped) minus structured(uniform10)",
+    "structured(mapped) minus raw(uniform05) as full-recipe gain",
+    "structured minus raw within each arm",
+    "uniform10 versus uniform05 schedule-estimator interaction on the new streams"
+  ],
+  "selection_policy": "No development search, no coefficient fitting, no arm selection. All four arms and all reported contrasts are frozen before training.",
+  "stream_seeds": [
+    329303,
+    340403,
+    351503,
+    362603,
+    373703,
+    384803,
+    395903,
+    407003
+  ],
+  "suite": "d12_tsa_groupwise_floor_v1"
+}

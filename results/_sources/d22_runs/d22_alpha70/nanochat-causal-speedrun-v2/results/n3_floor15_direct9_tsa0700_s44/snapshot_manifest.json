@@ -1,0 +1,149 @@
+{
+  "capture_seconds_total": 72.08336663246155,
+  "captured": {
+    "10059": {
+      "bytes": 4031445561,
+      "capture_seconds": 8.424104452133179,
+      "path": "snapshot_010059.pt",
+      "total_training_time": 4621.484150648117,
+      "wall_elapsed_since_manager_init": 4763.179121732712
+    },
+    "10172": {
+      "bytes": 4031445561,
+      "capture_seconds": 9.463767528533936,
+      "path": "snapshot_010172.pt",
+      "total_training_time": 4673.408897161484,
+      "wall_elapsed_since_manager_init": 4824.595876693726
+    },
+    "9381": {
+      "bytes": 4031445561,
+      "capture_seconds": 9.35716986656189,
+      "path": "snapshot_009381.pt",
+      "total_training_time": 4309.898981332779,
+      "wall_elapsed_since_manager_init": 4396.673411846161
+    },
+    "9494": {
+      "bytes": 4031445561,
+      "capture_seconds": 8.920174598693848,
+      "path": "snapshot_009494.pt",
+      "total_training_time": 4361.857854127884,
+      "wall_elapsed_since_manager_init": 4457.576817750931
+    },
+    "9607": {
+      "bytes": 4031445561,
+      "capture_seconds": 9.45671272277832,
+      "path": "snapshot_009607.pt",
+      "total_training_time": 4413.781132221222,
+      "wall_elapsed_since_manager_init": 4518.979706048965
+    },
+    "9720": {
+      "bytes": 4031445561,
+      "capture_seconds": 9.004329442977905,
+      "path": "snapshot_009720.pt",
+      "total_training_time": 4465.73636174202,
+      "wall_elapsed_since_manager_init": 4579.9608681201935
+    },
+    "9833": {
+      "bytes": 4031445561,
+      "capture_seconds": 8.646087646484375,
+      "path": "snapshot_009833.pt",
+      "total_training_time": 4517.663570404053,
+      "wall_elapsed_since_manager_init": 4640.559445619583
+    },
+    "9946": {
+      "bytes": 4031445561,
+      "capture_seconds": 8.811020374298096,
+      "path": "snapshot_009946.pt",
+      "total_training_time": 4569.576571941376,
+      "wall_elapsed_since_manager_init": 4701.306927919388
+    }
+  },
+  "complete": true,
+  "endpoints": {
+    "9": {
+      "endpoint_step": 10172,
+      "ratio": 9.0,
+      "snapshot_steps": [
+        9381,
+        9494,
+        9607,
+        9720,
+        9833,
+        9946,
+        10059,
+        10172
+      ]
+    }
+  },
+  "missing_steps": [],
+  "model_config": {
+    "learnable_rmsnorm": true,
+    "n_embd": 1408,
+    "n_head": 11,
+    "n_kv_head": 11,
+    "n_layer": 22,
+    "sequence_len": 2048,
+    "vocab_size": 49152,
+    "window_pattern": "SSSL"
+  },
+  "model_tag": "n3_floor15_direct9_tsa0700_s44_train",
+  "num_scaling_params": 592577964,
+  "record_version": 1,
+  "required_steps": [
+    9381,
+    9494,
+    9607,
+    9720,
+    9833,
+    9946,
+    10059,
+    10172
+  ],
+  "schedule_num_iterations": 10172,
+  "snapshot_k": 8,
+  "snapshot_spacing_fraction": 0.011108926464805349,
+  "snapshot_spacing_steps": 113,
+  "total_batch_size": 524288,
+  "train_num_iterations": 10172,
+  "user_config": {
+    "aspect_ratio": 64,
+    "core_metric_every": -1,
+    "core_metric_max_per_task": 500,
+    "depth": 22,
+    "device_batch_size": 32,
+    "device_type": "",
+    "embedding_lr": 0.3,
+    "eval_every": 999999,
+    "eval_tokens": 41943040,
+    "experiment_seed": 44,
+    "final_lr_frac": 0.05,
+    "fp8": true,
+    "fp8_recipe": "tensorwise",
+    "head_dim": 128,
+    "learnable_rmsnorm": true,
+    "liger_cross_entropy": true,
+    "matrix_lr": 0.02,
+    "max_seq_len": 2048,
+    "model_tag": "n3_floor15_direct9_tsa0700_s44_train",
+    "num_iterations": -1,
+    "record_schedule_param_data_ratio": 9.0,
+    "record_snapshot_dir": "${D22_ROOT}/snapshot_scratch/n3_floor15_direct9_tsa0700_s44",
+    "record_snapshot_k": 8,
+    "record_snapshot_ratios": "9.0",
+    "record_snapshot_spacing_frac": 0.011108926464805349,
+    "record_terminal_lr_clamp_frac": 0.15,
+    "resume_from_step": -1,
+    "run": "dummy",
+    "sample_every": -1,
+    "save_every": -1,
+    "scalar_lr": 0.5,
+    "target_flops": -1.0,
+    "target_param_data_ratio": 9.0,
+    "total_batch_size": 524288,
+    "unembedding_lr": 0.008,
+    "warmdown_ratio": 0.65,
+    "warmup_steps": 40,
+    "weight_decay": 0.28,
+    "window_pattern": "SSSL"
+  }
+}

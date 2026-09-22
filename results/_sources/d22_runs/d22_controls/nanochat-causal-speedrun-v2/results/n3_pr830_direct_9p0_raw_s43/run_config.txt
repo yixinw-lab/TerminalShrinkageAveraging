@@ -1,0 +1,8 @@
+arm=baseline_x
+target_ratio=9.0
+schedule_ratio=9.0
+experiment_seed=43
+terminal_clamp=disabled
+output=raw
+commit=e09bc164162f35da0b5b8315be791e9e974a4c3a
+final_step=10172

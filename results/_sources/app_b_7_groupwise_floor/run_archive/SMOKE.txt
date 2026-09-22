@@ -1,0 +1,13 @@
+suite=d12_tsa_groupwise_floor_v1
+python=${NANOCHAT_ROOT}/.venv/bin/python
+torch=2.9.1+cu128
+native_pack=${PROJECT_ROOT}/outputs/optimization_paper/averaging_curves_d12_s5_v1/native_seed1337/pack.pt
+protocol_sha256=eb147c8ba6942590ce04d15e9b0667e597153573ccce58325c5f918320c9e30a
+total_numel=286261730
+bucket_numel={"embedding": 176160768, "hidden": 84935088, "rest": 50, "unembed": 25165824}
+mapped_floors={"embedding": 0.05, "hidden": 0.15000000000000002, "rest": 0.08846153846153845, "unembed": 0.11923076923076922}
+matched_uniform_floor=0.085756649
+optimizer_param_groups_directly_routable=1
+mapped_routing_mode=direct_param_group
+one_batch_bpb=3.187611980013741
+GROUPWISE FLOOR D12 SMOKE PASS

@@ -1,0 +1,35 @@
+# Tuned exact controls
+exact_lr:0.25
+exact_lr:0.30
+exact_lr:0.35
+exact_lr:0.40
+noop
+
+# Group-selective live pull toward a recent average
+pull:all:8:16:16:0.10:preserve
+pull:muon:8:16:16:0.05:preserve
+pull:muon:8:16:16:0.10:preserve
+pull:muon:8:16:16:0.25:preserve
+pull:muon:8:32:32:0.10:preserve
+pull:adamw:8:16:16:0.10:preserve
+pull:muon_attention:8:16:16:0.10:preserve
+pull:muon_mlp:8:16:16:0.10:preserve
+pull:early:8:16:16:0.10:preserve
+pull:late:8:16:16:0.10:preserve
+
+# State-consistency ablations on affected groups
+pull:muon:8:16:16:0.10:reset_m
+pull:muon:8:16:16:0.10:damp_m0.5
+pull:muon:8:16:16:0.25:damp_m0.5
+pull:muon_attention:8:16:16:0.10:damp_m0.5
+pull:muon_mlp:8:16:16:0.10:damp_m0.5
+
+# Causal adaptive tensorwise strength
+apull:snr:muon:8:16:16:1.0:preserve
+apull:autocorr:muon:8:16:16:1.0:preserve
+apull:hybrid:muon:8:16:16:0.5:preserve
+apull:hybrid:muon:8:16:16:1.0:preserve
+apull:hybrid:muon:8:16:16:1.5:preserve
+apull:hybrid:all:8:16:16:1.0:preserve
+apull:hybrid:muon_attention:8:16:16:1.0:preserve
+apull:hybrid:muon_mlp:8:16:16:1.0:preserve

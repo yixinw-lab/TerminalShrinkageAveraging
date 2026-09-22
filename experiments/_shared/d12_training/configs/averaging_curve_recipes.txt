@@ -1,0 +1,9 @@
+# Primary methods for the optimizer x averaging comparison.
+# All methods are evaluated post-hoc on the same exact trajectory.
+raw
+uniform:4:16
+uniform:8:32
+ema:0.95:16:4
+group:muon:8:32
+adaptive:hybrid:8:32:1.0:all
+adaptive:hybrid:8:32:1.0:muon

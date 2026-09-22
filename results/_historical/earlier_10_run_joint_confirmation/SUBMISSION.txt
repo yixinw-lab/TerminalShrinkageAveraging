@@ -1,0 +1,10 @@
+created_at=2026-08-27T16:35:30-05:00
+design=paired_data_order_confirmation_of_frozen_d12_recipe
+source_group=paper_main_d12_v1
+frozen=${EXTRAP_ROOT}/outputs/optimization_paper/paper_main_d12_v1/paper_figures_v2/JOINT_FROZEN.env
+selected_alpha=0.550000
+selected_floor=0.100000
+combos=${EXTRAP_ROOT}/outputs/optimization_paper/paper_main_d12_joint_confirm_v1/confirmation_combos.csv
+note=same initialization and finite batch multiset; independent data-order permutations across repetitions
+array_job=3036070
+merge_job=3036071

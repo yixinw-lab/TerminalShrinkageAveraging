@@ -1,0 +1,17 @@
+optimizer,floor,stream_seed
+native,0.10,240503
+native,0.10,251603
+native,0.10,262703
+native,0.10,273803
+native,0.10,284903
+native,0.10,296003
+native,0.10,307103
+native,0.10,318203
+pure_adamw,0.10,240503
+pure_adamw,0.10,251603
+pure_adamw,0.10,262703
+pure_adamw,0.10,273803
+pure_adamw,0.10,284903
+pure_adamw,0.10,296003
+pure_adamw,0.10,307103
+pure_adamw,0.10,318203
