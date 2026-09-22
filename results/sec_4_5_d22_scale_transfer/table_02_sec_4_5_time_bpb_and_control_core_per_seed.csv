@@ -5,6 +5,6 @@ seed,configuration,time_min,val_bpb,core,core_status
 42,pr830_direct_9p0_raw,77.100000000,0.720258000,0.250000000,saved_run_record
 43,pr830_direct_9p0_raw,78.390703722,0.719928000,0.252800000,saved_run_record
 44,pr830_direct_9p0_raw,78.504978844,0.720518000,0.244400000,saved_run_record
-42,floor15_direct9_tsa0700,77.90957106351853,0.719573,0.2533,saved_run_record
-43,floor15_direct9_tsa0700,77.88806955019633,0.719358,0.2652,saved_run_record
-44,floor15_direct9_tsa0700,77.89014828602473,0.71981,0.2552,saved_run_record
+42,floor15_direct9_tsa0700,77.90957106351853,0.719573,0.253300000,saved_run_record
+43,floor15_direct9_tsa0700,77.88806955019633,0.719358,0.265200000,saved_run_record
+44,floor15_direct9_tsa0700,77.89014828602473,0.71981,0.255200000,saved_run_record
